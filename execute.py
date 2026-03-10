@@ -7,6 +7,7 @@ Example: python execute.py audio.mp3
 
 import sys
 import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 import whisper
 import re
 from typing import List, Dict
