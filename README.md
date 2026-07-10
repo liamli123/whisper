@@ -9,7 +9,10 @@ This project provides multiple Python scripts for transcribing audio files using
 ```bash
 pip install openai-whisper
 pip install faster-whisper
+pip install yt-dlp  # For YouTube transcription (youtube.py)
 ```
+
+yt-dlp also requires **ffmpeg** to be installed and on your PATH.
 
 ### System Requirements
 - Python 3.7+
@@ -59,6 +62,47 @@ python execute.py interview.m4a
 - Automatic output file naming
 - Progress information
 - Error handling
+
+---
+
+## YouTube Transcription
+
+### **youtube.py** - Download & Transcribe YouTube Videos
+
+Downloads a YouTube video's audio with yt-dlp and transcribes it (Japanese by default), saving a **Markdown transcript**.
+
+**Usage**:
+```bash
+python youtube.py <youtube_url>
+```
+
+**Examples**:
+```bash
+# Japanese video, best-accuracy model (default)
+python youtube.py https://www.youtube.com/watch?v=XXXXXXXXXXX
+
+# Faster, smaller model
+python youtube.py https://www.youtube.com/watch?v=XXXXXXXXXXX --model medium
+
+# Keep the downloaded mp3 after transcription
+python youtube.py https://www.youtube.com/watch?v=XXXXXXXXXXX --keep-audio
+
+# Non-Japanese video
+python youtube.py https://www.youtube.com/watch?v=XXXXXXXXXXX --language en
+```
+
+**Options**:
+- `--model` - Whisper model (default: `large-v3`)
+- `--language` - Language code (default: `ja`)
+- `--keep-audio` - Keep the downloaded mp3 (deleted by default after transcription)
+
+**What it does**:
+1. Downloads the audio track as mp3 into `downloads/`
+2. Transcribes it with Whisper (Japanese sentence formatting applied for `ja`)
+3. Saves `downloads/<video title>.md` containing:
+   - Video metadata (title, channel, URL, duration)
+   - Timestamped transcript (文字起こし)
+   - Full formatted text (全文)
 
 ---
 
