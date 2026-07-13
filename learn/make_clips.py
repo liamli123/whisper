@@ -108,6 +108,8 @@ def main():
     audio_end = words[-1]["end"] + 1.0
     clip_dir = SITE / "audio" / lesson["id"]
     clip_dir.mkdir(parents=True, exist_ok=True)
+    for old in clip_dir.glob("*.mp3"):  # segment count may have changed
+        old.unlink()
 
     # Decode the source once; cutting hundreds of clips from wav is
     # sample-accurate and fast, unlike seeking in mp3.

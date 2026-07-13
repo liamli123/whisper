@@ -41,6 +41,10 @@ Fill in, for EVERY segment:
   each with a brief Simplified Chinese explanation of its role in this
   sentence. Empty array is fine for trivial fragments.
 
+For trivial fragments — backchannel/filler responses (そうですね, 確かに,
+なるほど, うん) and other very short utterances that a learner doesn't need
+explained — fill in "zh" but leave "vocab" and "grammar" as empty arrays.
+
 THEN build the lesson's grammar book ("grammarPoints", a top-level object
 keyed by pattern string). For every UNIQUE pattern that appears in any
 segment's grammar array, write a teacher-style entry the way a Japanese

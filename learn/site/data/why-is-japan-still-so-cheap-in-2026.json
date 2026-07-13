@@ -129,14 +129,7 @@
       "sec": 10,
       "jp": "確かに",
       "zh": "确实",
-      "vocab": [
-        {
-          "word": "確かに",
-          "reading": "たしかに",
-          "romaji": "tashika ni",
-          "zh": "确实、的确（附和用语）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
       "clip": "audio/why-is-japan-still-so-cheap-in-2026/004.mp3"
     },
@@ -176,14 +169,7 @@
       "sec": 12,
       "jp": "確かに確かに",
       "zh": "确实确实",
-      "vocab": [
-        {
-          "word": "確かに",
-          "reading": "たしかに",
-          "romaji": "tashika ni",
-          "zh": "确实（重复表示强烈附和）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
       "clip": "audio/why-is-japan-still-so-cheap-in-2026/006.mp3"
     },
@@ -283,8 +269,8 @@
     {
       "t": "00:20",
       "sec": 20,
-      "jp": "日本が今観光業が盛り上がってるっていうのは",
-      "zh": "日本现在旅游业很火爆这一点",
+      "jp": "日本が今観光業が盛り上がってるっていうのは一つありますけど",
+      "zh": "日本现在旅游业很火爆这一点算是（好的）一方面，不过",
       "vocab": [
         {
           "word": "観光業",
@@ -297,6 +283,12 @@
           "reading": "もりあがる",
           "romaji": "moriagaru",
           "zh": "高涨、火爆、气氛热烈"
+        },
+        {
+          "word": "一つ",
+          "reading": "ひとつ",
+          "romaji": "hitotsu",
+          "zh": "一个、一方面"
         }
       ],
       "grammar": [
@@ -307,30 +299,13 @@
         {
           "pattern": "〜てる",
           "zh": "＝ている的口语缩略，表示状态持续：盛り上がってる＝正火爆着"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/010.mp3"
-    },
-    {
-      "t": "00:22",
-      "sec": 22,
-      "jp": "一つありますけど",
-      "zh": "算是（好的）一方面，不过",
-      "vocab": [
-        {
-          "word": "一つ",
-          "reading": "ひとつ",
-          "romaji": "hitotsu",
-          "zh": "一个、一方面"
-        }
-      ],
-      "grammar": [
+        },
         {
           "pattern": "〜けど",
           "zh": "句尾的けど表示转折留白：“虽然……不过”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/011.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/010.mp3"
     },
     {
       "t": "00:23",
@@ -361,7 +336,7 @@
           "zh": "もん（表原因）＋ね（寻求共鸣）：“毕竟……嘛，对吧”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/012.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/011.mp3"
     },
     {
       "t": "00:25",
@@ -388,7 +363,7 @@
           "zh": "“……的时候”，は提示对比的话题"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/013.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/012.mp3"
     },
     {
       "t": "00:27",
@@ -409,23 +384,16 @@
           "zh": "口语套话：“虽说不至于是……（但也差不多）”，用夸张说法后再收回一点"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/014.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/013.mp3"
     },
     {
       "t": "00:31",
       "sec": 31,
       "jp": "GDPですか",
       "zh": "GDP吗？",
-      "vocab": [
-        {
-          "word": "GDP",
-          "reading": "ジーディーピー",
-          "romaji": "jii dii pii",
-          "zh": "国内生产总值"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/015.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/014.mp3"
     },
     {
       "t": "00:32",
@@ -456,7 +424,7 @@
           "zh": "口语中表示“之类的、什么的”，语气随意"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/016.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/015.mp3"
     },
     {
       "t": "00:34",
@@ -487,7 +455,7 @@
           "zh": "转折：“虽然……但是”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/017.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/016.mp3"
     },
     {
       "t": "00:36",
@@ -518,7 +486,7 @@
           "zh": "“我觉得……”，ね使语气缓和"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/018.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/017.mp3"
     },
     {
       "t": "00:57",
@@ -545,7 +513,7 @@
           "zh": "接头词ご表示对对方事物的尊敬：ご職業＝您的职业（此处“ご覧に”应为“ご年齢（ごねんれい）”的听写误差）"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/019.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/018.mp3"
     },
     {
       "t": "00:59",
@@ -578,7 +546,7 @@
           "zh": "している的口语缩略：“在做……（职业）”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/020.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/019.mp3"
     },
     {
       "t": "01:02",
@@ -617,7 +585,7 @@
           "zh": "“有……吗”，询问存在/数量"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/021.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/020.mp3"
     },
     {
       "t": "01:05",
@@ -644,7 +612,7 @@
           "zh": "とか（模糊举例）＋ですかね（不确定）：“大概是……左右吧”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/022.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/021.mp3"
     },
     {
       "t": "01:07",
@@ -673,7 +641,7 @@
           "zh": "“東京で”被挪到句尾，口语常见的后置补充"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/023.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/022.mp3"
     },
     {
       "t": "01:09",
@@ -700,7 +668,7 @@
           "zh": "で表示工作场所/领域＋働いている（口语缩略）：“在……工作”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/024.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/023.mp3"
     },
     {
       "t": "01:13",
@@ -725,7 +693,7 @@
           "zh": "＝ていて的口语缩略，表示动作持续并接续下文"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/025.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/024.mp3"
     },
     {
       "t": "01:16",
@@ -762,7 +730,7 @@
           "zh": "“只、仅仅”：週に1回だけ＝每周仅一次"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/026.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/025.mp3"
     },
     {
       "t": "01:21",
@@ -789,7 +757,7 @@
           "zh": "ぐらい（大约）＋で接续：“大约……，然后”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/027.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/026.mp3"
     },
     {
       "t": "01:23",
@@ -810,23 +778,16 @@
           "zh": "句尾的っていう用于总结前面所说内容：“就是……这么回事”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/028.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/027.mp3"
     },
     {
       "t": "01:25",
       "sec": 85,
       "jp": "そうですね",
       "zh": "是的",
-      "vocab": [
-        {
-          "word": "そうですね",
-          "reading": "そうですね",
-          "romaji": "sou desu ne",
-          "zh": "是的、没错（附和/思考时的口头语）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/029.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/028.mp3"
     },
     {
       "t": "01:26",
@@ -847,7 +808,7 @@
           "zh": "んです（说明背景）＋よ（告知）：向对方说明情况"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/030.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/029.mp3"
     },
     {
       "t": "01:27",
@@ -874,7 +835,7 @@
           "zh": "模糊举例＋不确定语气：“大概……左右吧”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/031.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/030.mp3"
     },
     {
       "t": "01:30",
@@ -895,7 +856,7 @@
           "zh": "会社員してます：口语中把身份名词直接接する，“在当……”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/032.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/031.mp3"
     },
     {
       "t": "01:33",
@@ -911,7 +872,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/033.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/032.mp3"
     },
     {
       "t": "01:34",
@@ -932,7 +893,7 @@
           "zh": "用とか使数字模糊化再发问：“大概是……左右吗”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/034.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/033.mp3"
     },
     {
       "t": "01:36",
@@ -963,7 +924,7 @@
           "zh": "表示原因、理由：“因为住在老家（所以）”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/035.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/034.mp3"
     },
     {
       "t": "01:39",
@@ -1006,7 +967,7 @@
           "zh": "与否定呼应，表示“不太……”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/036.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/035.mp3"
     },
     {
       "t": "01:43",
@@ -1053,7 +1014,7 @@
           "zh": "句尾缓和语气，带轻微转折：“……不过”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/037.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/036.mp3"
     },
     {
       "t": "01:47",
@@ -1090,23 +1051,16 @@
           "zh": "「回せて」用て形中顿，句子留有后续未说完的语感"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/038.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/037.mp3"
     },
     {
       "t": "01:49",
       "sec": 109,
       "jp": "53歳です",
       "zh": "53岁",
-      "vocab": [
-        {
-          "word": "歳",
-          "reading": "さい",
-          "romaji": "sai",
-          "zh": "岁（年龄量词）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/039.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/038.mp3"
     },
     {
       "t": "01:50",
@@ -1128,7 +1082,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/040.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/039.mp3"
     },
     {
       "t": "01:52",
@@ -1155,7 +1109,7 @@
           "zh": "口语列举：“……啦、……之类的”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/041.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/040.mp3"
     },
     {
       "t": "01:54",
@@ -1183,7 +1137,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/042.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/041.mp3"
     },
     {
       "t": "01:57",
@@ -1204,7 +1158,7 @@
           "zh": "「あるんですけど」：说明情况并缓和语气，暗示话还没说完"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/043.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/042.mp3"
     },
     {
       "t": "01:57",
@@ -1231,7 +1185,7 @@
           "zh": "「〜ています」的自谦郑重形式，商务/正式场合介绍自己的工作时常用"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/044.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/043.mp3"
     },
     {
       "t": "01:59",
@@ -1256,7 +1210,7 @@
           "zh": "“如果是……的话”，此处提出一个大概范围"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/045.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/044.mp3"
     },
     {
       "t": "02:02",
@@ -1283,7 +1237,7 @@
           "zh": "「53歳で」用で连接两项信息：“53岁，（并且）是金融相关”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/046.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/045.mp3"
     },
     {
       "t": "02:08",
@@ -1299,7 +1253,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/047.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/046.mp3"
     },
     {
       "t": "02:10",
@@ -1320,7 +1274,7 @@
           "zh": "句尾表示不太确定、带自问口吻的推测：“……吧”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/048.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/047.mp3"
     },
     {
       "t": "02:12",
@@ -1353,7 +1307,7 @@
           "zh": "名词/な形容词＋なので表原因；句中连用两次，口语中常见的“因为……因为……”叠加"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/049.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/048.mp3"
     },
     {
       "t": "02:17",
@@ -1380,28 +1334,16 @@
           "zh": "与否定呼应：“没法那么（期待）”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/050.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/049.mp3"
     },
     {
       "t": "02:19",
       "sec": 139,
       "jp": "年金とかも",
       "zh": "养老金什么的也（指望不上）",
-      "vocab": [
-        {
-          "word": "年金",
-          "reading": "ねんきん",
-          "romaji": "nenkin",
-          "zh": "养老金、年金"
-        }
-      ],
-      "grammar": [
-        {
-          "pattern": "〜とかも",
-          "zh": "「とか」举例＋「も」“也”：“养老金之类的也……”（承接上句的否定）"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/051.mp3"
+      "vocab": [],
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/050.mp3"
     },
     {
       "t": "02:21",
@@ -1436,7 +1378,7 @@
           "zh": "“一想到……（就）”，引出下一句的结论"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/052.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/051.mp3"
     },
     {
       "t": "02:27",
@@ -1457,7 +1399,7 @@
           "zh": "“没法（放开）花钱”，表示由于顾虑而不能"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/053.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/052.mp3"
     },
     {
       "t": "02:29",
@@ -1478,7 +1420,7 @@
           "zh": "口语中代替「です」的客气说法：“（我的年龄）是64岁”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/054.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/053.mp3"
     },
     {
       "t": "02:32",
@@ -1499,7 +1441,7 @@
           "zh": "客气地陈述身份/事实，相当于「です」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/055.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/054.mp3"
     },
     {
       "t": "02:34",
@@ -1524,7 +1466,7 @@
           "zh": "不确定的推测语气：“……吧”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/056.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/055.mp3"
     },
     {
       "t": "02:38",
@@ -1545,7 +1487,7 @@
           "zh": "委婉推测：“不是……吗／应该是……吧”，口语中很常用"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/057.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/056.mp3"
     },
     {
       "t": "02:40",
@@ -1576,7 +1518,7 @@
           "zh": "口语句尾，带辩解、强调理由的语气：“因为……嘛”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/058.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/057.mp3"
     },
     {
       "t": "02:43",
@@ -1607,7 +1549,7 @@
           "zh": "句尾语气词，关西方言色彩的感叹：“……呢／……呀”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/059.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/058.mp3"
     },
     {
       "t": "02:46",
@@ -1642,7 +1584,7 @@
           "zh": "询问详情、寻求说明的疑问句式"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/060.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/059.mp3"
     },
     {
       "t": "02:50",
@@ -1673,7 +1615,7 @@
           "zh": "委婉陈述自己的看法：“我觉得……（不过）”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/061.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/060.mp3"
     },
     {
       "t": "02:51",
@@ -1704,50 +1646,25 @@
           "zh": "「今の仕様」放在句尾补充说明，口语中常见的后置补足"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/062.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/061.mp3"
     },
     {
       "t": "02:54",
       "sec": 174,
       "jp": "ってなると",
       "zh": "这么一来的话",
-      "vocab": [
-        {
-          "word": "なる",
-          "reading": "なる",
-          "romaji": "naru",
-          "zh": "变成、成为"
-        }
-      ],
-      "grammar": [
-        {
-          "pattern": "〜ってなると",
-          "zh": "口语“如果是那样的话／这么一来”，承上启下引出结论"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/063.mp3"
+      "vocab": [],
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/062.mp3"
     },
     {
       "t": "02:55",
       "sec": 175,
       "jp": "高齢者の方で",
       "zh": "对于老年人来说",
-      "vocab": [
-        {
-          "word": "高齢者",
-          "reading": "こうれいしゃ",
-          "romaji": "koureisha",
-          "zh": "老年人、高龄者"
-        },
-        {
-          "word": "方",
-          "reading": "かた",
-          "romaji": "kata",
-          "zh": "位（对人的敬称，比「人」礼貌）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/064.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/063.mp3"
     },
     {
       "t": "02:57",
@@ -1772,7 +1689,7 @@
           "zh": "假定条件：“如果是……的话”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/065.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/064.mp3"
     },
     {
       "t": "03:01",
@@ -1803,23 +1720,16 @@
           "zh": "“变成……”：变成默认、常态"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/066.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/065.mp3"
     },
     {
       "t": "03:03",
       "sec": 183,
       "jp": "そうですね",
       "zh": "是啊",
-      "vocab": [
-        {
-          "word": "そうですね",
-          "reading": "そうですね",
-          "romaji": "sou desu ne",
-          "zh": "是啊、没错（表示赞同的常用应答）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/067.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/066.mp3"
     },
     {
       "t": "03:04",
@@ -1844,23 +1754,16 @@
           "zh": "「生活していけない」＝“无法（继续）生活下去”，〜ていく的可能形否定"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/068.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/067.mp3"
     },
     {
       "t": "03:06",
       "sec": 186,
       "jp": "現在69歳",
       "zh": "现在69岁",
-      "vocab": [
-        {
-          "word": "現在",
-          "reading": "げんざい",
-          "romaji": "genzai",
-          "zh": "现在、目前（比「今」正式）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/069.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/068.mp3"
     },
     {
       "t": "03:07",
@@ -1893,7 +1796,7 @@
           "zh": "表示动作的持续或习惯性状态，这里指“现在仍在做（调音工作）”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/070.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/069.mp3"
     },
     {
       "t": "03:13",
@@ -1920,7 +1823,7 @@
           "zh": "口语表达，相当于“该怎么说呢/或者说”，用于修正或缓和自己的措辞"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/071.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/070.mp3"
     },
     {
       "t": "03:15",
@@ -1941,7 +1844,7 @@
           "zh": "口语表达“该怎么说呢/是不是叫……呢”，说话人一边找措辞一边说话"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/072.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/071.mp3"
     },
     {
       "t": "03:17",
@@ -1962,7 +1865,7 @@
           "zh": "「〜ている」的否定强调形式，「は」起对比强调作用，“并没有在感觉到（不安）”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/073.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/072.mp3"
     },
     {
       "t": "03:19",
@@ -1989,7 +1892,7 @@
           "zh": "举例，“……之类的”，口语中常用来使语气委婉"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/074.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/073.mp3"
     },
     {
       "t": "03:22",
@@ -2028,34 +1931,16 @@
           "zh": "「と」并列列举名词：“养老金、工作和积蓄”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/075.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/074.mp3"
     },
     {
       "t": "03:27",
       "sec": 207,
       "jp": "でなんと全然",
       "zh": "靠这些，完全（没问题）",
-      "vocab": [
-        {
-          "word": "全然",
-          "reading": "ぜんぜん",
-          "romaji": "zenzen",
-          "zh": "完全（口语中也可表示“完全没问题”）"
-        },
-        {
-          "word": "なんと",
-          "reading": "なんと",
-          "romaji": "nanto",
-          "zh": "竟然、居然（表示惊讶的感叹词）"
-        }
-      ],
-      "grammar": [
-        {
-          "pattern": "全然＋（省略肯定/否定）",
-          "zh": "口语中「全然」后面常省略谓语，这里意为“完全（没问题/不担心）”"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/076.mp3"
+      "vocab": [],
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/075.mp3"
     },
     {
       "t": "03:29",
@@ -2071,7 +1956,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/077.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/076.mp3"
     },
     {
       "t": "03:31",
@@ -2104,7 +1989,7 @@
           "zh": "假定条件“如果……的话”，这里是「あれば」＝如果有（多少收入）的话"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/078.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/077.mp3"
     },
     {
       "t": "03:34",
@@ -2131,7 +2016,7 @@
           "zh": "「暮らせる」是「暮らす」的可能形，表示“能够生活”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/079.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/078.mp3"
     },
     {
       "t": "03:35",
@@ -2158,7 +2043,7 @@
           "zh": "表示数量范围“从……到……左右”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/080.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/079.mp3"
     },
     {
       "t": "03:39",
@@ -2191,23 +2076,16 @@
           "zh": "比较基准“比起……”，「は」加强对比语气：比平均水平（高）"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/081.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/080.mp3"
     },
     {
       "t": "03:41",
       "sec": 221,
       "jp": "そうですね",
       "zh": "是啊",
-      "vocab": [
-        {
-          "word": "そうですね",
-          "reading": "そうですね",
-          "romaji": "sō desu ne",
-          "zh": "是啊、没错（附和用语）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/082.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/081.mp3"
     },
     {
       "t": "03:42",
@@ -2232,7 +2110,7 @@
           "zh": "向对方确认、寻求同意：“……对吧？”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/083.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/082.mp3"
     },
     {
       "t": "03:45",
@@ -2259,7 +2137,7 @@
           "zh": "表示原因理由“因为……”，比「から」语气更客观柔和"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/084.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/083.mp3"
     },
     {
       "t": "03:47",
@@ -2290,7 +2168,7 @@
           "zh": "「〜のかな」表示带不确定语气的推测，加「と思います」＝“我想大概是……吧”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/085.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/084.mp3"
     },
     {
       "t": "03:50",
@@ -2327,7 +2205,7 @@
           "zh": "口语语气词「もん」＋「ね」，表示“毕竟是……嘛”的认同和共鸣"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/086.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/085.mp3"
     },
     {
       "t": "03:54",
@@ -2354,7 +2232,7 @@
           "zh": "委婉推测“是不是……呢/应该……吧”，句尾「と」后省略了「思う」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/087.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/086.mp3"
     },
     {
       "t": "03:57",
@@ -2391,7 +2269,7 @@
           "zh": "假定条件“如果是……的话”：30万だったら＝如果是30万的话"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/088.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/087.mp3"
     },
     {
       "t": "04:00",
@@ -2412,23 +2290,16 @@
           "zh": "「で」表示凭借、依据：“凭我的印象（来说）”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/089.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/088.mp3"
     },
     {
       "t": "04:01",
       "sec": 241,
       "jp": "そうですね",
       "zh": "是啊",
-      "vocab": [
-        {
-          "word": "そうですね",
-          "reading": "そうですね",
-          "romaji": "sō desu ne",
-          "zh": "是啊（附和用语）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/090.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/089.mp3"
     },
     {
       "t": "04:02",
@@ -2471,7 +2342,7 @@
           "zh": "「とか」举例＋「だと」假定，“如果是……之类的地方的话”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/091.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/090.mp3"
     },
     {
       "t": "04:07",
@@ -2492,7 +2363,7 @@
           "zh": "「なので」的口语音变，表示原因“因为是……”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/092.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/091.mp3"
     },
     {
       "t": "04:09",
@@ -2529,7 +2400,7 @@
           "zh": "询问对方的想法“你认为……吗？”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/093.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/092.mp3"
     },
     {
       "t": "04:13",
@@ -2550,7 +2421,7 @@
           "zh": "“我觉得不会……”，否定放在「思う」前面的从句中"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/094.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/093.mp3"
     },
     {
       "t": "04:15",
@@ -2577,7 +2448,7 @@
           "zh": "表示原因“因为……”，放在句尾说明理由"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/095.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/094.mp3"
     },
     {
       "t": "04:17",
@@ -2608,7 +2479,7 @@
           "zh": "口语引用「という」的音变，“有没有……这样的想法？”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/096.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/095.mp3"
     },
     {
       "t": "04:20",
@@ -2639,7 +2510,7 @@
           "zh": "「ところ」的口语缩略形式，“地方”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/097.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/096.mp3"
     },
     {
       "t": "04:23",
@@ -2682,28 +2553,16 @@
           "zh": "“如果是……的话”，提出前提条件：都内だと＝在都内的话"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/098.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/097.mp3"
     },
     {
       "t": "04:27",
       "sec": 267,
       "jp": "それだけで",
       "zh": "光是这个（房租）",
-      "vocab": [
-        {
-          "word": "それだけで",
-          "reading": "それだけで",
-          "romaji": "sore dake de",
-          "zh": "光是那个、仅凭那个"
-        }
-      ],
-      "grammar": [
-        {
-          "pattern": "〜だけで",
-          "zh": "“仅仅……就……”，表示只凭这一项"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/099.mp3"
+      "vocab": [],
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/098.mp3"
     },
     {
       "t": "04:27",
@@ -2750,7 +2609,7 @@
           "zh": "表示原因，“因为会变成（无法生活的）状态，所以……”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/100.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/099.mp3"
     },
     {
       "t": "04:31",
@@ -2777,7 +2636,7 @@
           "zh": "“必须……/不……不行”，表示义务和必要性"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/101.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/100.mp3"
     },
     {
       "t": "04:33",
@@ -2814,7 +2673,7 @@
           "zh": "“如果是（说到）……的话”，限定话题范围：领养老金的人当中"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/102.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/101.mp3"
     },
     {
       "t": "04:37",
@@ -2851,7 +2710,7 @@
           "zh": "「暮らせる」＝能够生活，「暮らす」的可能形"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/103.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/102.mp3"
     },
     {
       "t": "04:40",
@@ -2872,7 +2731,7 @@
           "zh": "「かね」表示带犹豫的自问自答，“是怎么样的呢……（我也说不好）”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/104.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/103.mp3"
     },
     {
       "t": "04:41",
@@ -2913,23 +2772,16 @@
           "zh": "口语,=「という人」,引用内容修饰「人」:「……这样的人」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/105.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/104.mp3"
     },
     {
       "t": "04:47",
       "sec": 287,
       "jp": "なるほど",
       "zh": "原来如此",
-      "vocab": [
-        {
-          "word": "なるほど",
-          "reading": "なるほど",
-          "romaji": "naruhodo",
-          "zh": "原来如此、有道理"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/106.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/105.mp3"
     },
     {
       "t": "04:48",
@@ -2972,7 +2824,7 @@
           "zh": "「一看到……(的情形)就……」,の把前面的句子名词化"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/107.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/106.mp3"
     },
     {
       "t": "04:54",
@@ -3013,7 +2865,7 @@
           "zh": "把前面整句话名词化并提为话题:「……这件事」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/108.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/107.mp3"
     },
     {
       "t": "04:57",
@@ -3040,7 +2892,7 @@
           "zh": "「有时会……」,表示偶尔出现某种情况"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/109.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/108.mp3"
     },
     {
       "t": "04:59",
@@ -3077,7 +2929,7 @@
           "zh": "「正在……的人」,方(かた)是「人」的敬称"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/110.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/109.mp3"
     },
     {
       "t": "05:04",
@@ -3098,28 +2950,16 @@
           "zh": "口语中双重列举(たり+とか),举例「做……之类的事」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/111.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/110.mp3"
     },
     {
       "t": "05:05",
       "sec": 305,
       "jp": "いますよね",
       "zh": "确实有这样的人呢",
-      "vocab": [
-        {
-          "word": "いる",
-          "reading": "いる",
-          "romaji": "iru",
-          "zh": "有、存在(用于人或动物)"
-        }
-      ],
-      "grammar": [
-        {
-          "pattern": "〜よね",
-          "zh": "句尾寻求对方认同:「……对吧」"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/112.mp3"
+      "vocab": [],
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/111.mp3"
     },
     {
       "t": "05:06",
@@ -3156,7 +2996,7 @@
           "zh": "本来接否定,口语中接肯定表示「完全(没问题)、十分」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/113.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/112.mp3"
     },
     {
       "t": "05:11",
@@ -3187,23 +3027,16 @@
           "zh": "「并不是……」,否定某种判断"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/114.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/113.mp3"
     },
     {
       "t": "05:14",
       "sec": 314,
       "jp": "そうですね",
       "zh": "是的",
-      "vocab": [
-        {
-          "word": "そうですね",
-          "reading": "そうですね",
-          "romaji": "sou desu ne",
-          "zh": "是啊、没错(表示同意)"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/115.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/114.mp3"
     },
     {
       "t": "05:14",
@@ -3244,7 +3077,7 @@
           "zh": "转折:「虽然……但是」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/116.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/115.mp3"
     },
     {
       "t": "05:19",
@@ -3271,7 +3104,7 @@
           "zh": "「在……方面」,名词+的に构成副词:経済的に=在经济上"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/117.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/116.mp3"
     },
     {
       "t": "05:21",
@@ -3318,7 +3151,7 @@
           "zh": "列举若干情况中的一例:「……啦(之类的)」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/118.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/117.mp3"
     },
     {
       "t": "05:26",
@@ -3349,7 +3182,7 @@
           "zh": "委婉地铺垫说明,后面往往接着补充"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/119.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/118.mp3"
     },
     {
       "t": "05:27",
@@ -3392,7 +3225,7 @@
           "zh": "「我想是……(不过)」,委婉陈述个人推测"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/120.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/119.mp3"
     },
     {
       "t": "05:34",
@@ -3417,7 +3250,7 @@
           "zh": "=ていたり,列举正在发生的状态"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/121.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/120.mp3"
     },
     {
       "t": "05:36",
@@ -3454,7 +3287,7 @@
           "zh": "列举理由之一,暗示还有其他理由:「而且……」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/122.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/121.mp3"
     },
     {
       "t": "05:44",
@@ -3481,7 +3314,7 @@
           "zh": "=ので的口语形,表示原因:「因为……」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/123.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/122.mp3"
     },
     {
       "t": "05:47",
@@ -3524,7 +3357,7 @@
           "zh": "=「というのと」,口语,把观点名词化后列举:「……这一点,和……」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/124.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/123.mp3"
     },
     {
       "t": "05:54",
@@ -3557,7 +3390,7 @@
           "zh": "「与……不同」,拿别的对象作对比"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/125.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/124.mp3"
     },
     {
       "t": "05:57",
@@ -3588,7 +3421,7 @@
           "zh": "表示原因:「因为……」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/126.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/125.mp3"
     },
     {
       "t": "05:59",
@@ -3619,7 +3452,7 @@
           "zh": "口语转折铺垫:「虽然……但是」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/127.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/126.mp3"
     },
     {
       "t": "06:02",
@@ -3662,7 +3495,7 @@
           "zh": "把感叹句「多いな」直接引用后接感じる:「感觉……啊」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/128.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/127.mp3"
     },
     {
       "t": "06:06",
@@ -3678,7 +3511,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/129.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/128.mp3"
     },
     {
       "t": "06:08",
@@ -3711,7 +3544,7 @@
           "zh": "「正因为……(所以更加……)」,强调原因带来的相应结果"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/130.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/129.mp3"
     },
     {
       "t": "06:12",
@@ -3742,7 +3575,7 @@
           "zh": "列举理由/情况之一:「既……(而且)」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/131.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/130.mp3"
     },
     {
       "t": "06:14",
@@ -3764,7 +3597,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/132.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/131.mp3"
     },
     {
       "t": "06:16",
@@ -3801,23 +3634,16 @@
           "zh": "举例:「……之类的」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/133.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/132.mp3"
     },
     {
       "t": "06:19",
       "sec": 379,
       "jp": "感じますね",
       "zh": "能感觉到",
-      "vocab": [
-        {
-          "word": "感じる",
-          "reading": "かんじる",
-          "romaji": "kanjiru",
-          "zh": "感觉到、感受到"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/134.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/133.mp3"
     },
     {
       "t": "06:20",
@@ -3860,23 +3686,16 @@
           "zh": "向对方说明情况并加以强调:「(是)……的呀」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/135.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/134.mp3"
     },
     {
       "t": "06:26",
       "sec": 386,
       "jp": "でやっぱ今",
       "zh": "然后,毕竟现在",
-      "vocab": [
-        {
-          "word": "やっぱ",
-          "reading": "やっぱ",
-          "romaji": "yappa",
-          "zh": "果然、毕竟(やっぱり的口语缩略)"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/136.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/135.mp3"
     },
     {
       "t": "06:27",
@@ -3907,7 +3726,7 @@
           "zh": "て形连接,表示原因并引出后面的结果"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/137.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/136.mp3"
     },
     {
       "t": "06:30",
@@ -3938,7 +3757,7 @@
           "zh": "「有……的部分/方面」,委婉地指出部分事实"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/138.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/137.mp3"
     },
     {
       "t": "06:34",
@@ -3979,7 +3798,7 @@
           "zh": "表示原因,句子未说完暗示后续:「因为……(所以)」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/139.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/138.mp3"
     },
     {
       "t": "06:39",
@@ -4016,7 +3835,7 @@
           "zh": "表示原因理由,\"因为(开车)所以……\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/140.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/139.mp3"
     },
     {
       "t": "06:42",
@@ -4049,7 +3868,7 @@
           "zh": "句尾ね表示寻求共鸣,\"……对吧/呢\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/141.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/140.mp3"
     },
     {
       "t": "06:44",
@@ -4096,7 +3915,7 @@
           "zh": "口语句尾,带有\"因为本来就是这样嘛\"的理所当然语气"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/142.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/141.mp3"
     },
     {
       "t": "06:49",
@@ -4123,7 +3942,7 @@
           "zh": "〜ています的口语缩略,表示正在持续的状态(正在涨)"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/143.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/142.mp3"
     },
     {
       "t": "06:51",
@@ -4160,7 +3979,7 @@
           "zh": "\"连……都\",表示程度超出预料"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/144.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/143.mp3"
     },
     {
       "t": "06:53",
@@ -4187,7 +4006,7 @@
           "zh": "寻求对方认同,\"……对吧\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/145.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/144.mp3"
     },
     {
       "t": "06:55",
@@ -4214,7 +4033,7 @@
           "zh": "\"说到……的话\",引出话题"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/146.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/145.mp3"
     },
     {
       "t": "06:57",
@@ -4245,7 +4064,7 @@
           "zh": "\"也就是说……对吧\",口语中确认、总结对方的意思"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/147.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/146.mp3"
     },
     {
       "t": "07:01",
@@ -4278,7 +4097,7 @@
           "zh": "\"对……来说\",强调受影响的对象是\"我\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/148.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/147.mp3"
     },
     {
       "t": "07:05",
@@ -4315,7 +4134,7 @@
           "zh": "表示原因,\"因为喜欢所以……\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/149.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/148.mp3"
     },
     {
       "t": "07:10",
@@ -4356,7 +4175,7 @@
           "zh": "〜てしまう的口语缩略,这里表示\"不由自主地(想)\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/150.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/149.mp3"
     },
     {
       "t": "07:12",
@@ -4383,7 +4202,7 @@
           "zh": "\"如果……的话\",假定条件"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/151.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/150.mp3"
     },
     {
       "t": "07:14",
@@ -4405,7 +4224,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/152.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/151.mp3"
     },
     {
       "t": "07:15",
@@ -4427,7 +4246,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/153.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/152.mp3"
     },
     {
       "t": "07:17",
@@ -4470,7 +4289,7 @@
           "zh": "\"虽然心里想着……(但实际没做到)\",つつ表示转折的同时"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/154.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/153.mp3"
     },
     {
       "t": "07:23",
@@ -4511,7 +4330,7 @@
           "zh": "列举理由,\"又……(而且)\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/155.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/154.mp3"
     },
     {
       "t": "07:27",
@@ -4558,7 +4377,7 @@
           "zh": "举例说明,\"有时会……之类的\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/156.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/155.mp3"
     },
     {
       "t": "07:36",
@@ -4605,7 +4424,7 @@
           "zh": "〜ので的口语缩略,表示原因"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/157.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/156.mp3"
     },
     {
       "t": "07:45",
@@ -4648,7 +4467,7 @@
           "zh": "〜ので的口语缩略,\"因为(卖不动)\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/158.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/157.mp3"
     },
     {
       "t": "07:57",
@@ -4675,7 +4494,7 @@
           "zh": "\"正在发生……\",ている表示状态持续"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/159.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/158.mp3"
     },
     {
       "t": "08:00",
@@ -4718,7 +4537,7 @@
           "zh": "変わっていない的口语缩略,\"没有变\"的状态"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/160.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/159.mp3"
     },
     {
       "t": "08:06",
@@ -4757,7 +4576,7 @@
           "zh": "です的书面语形式,表示判断\"是……\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/161.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/160.mp3"
     },
     {
       "t": "08:08",
@@ -4794,7 +4613,7 @@
           "zh": "\"能够……\",表示可能"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/162.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/161.mp3"
     },
     {
       "t": "08:13",
@@ -4831,7 +4650,7 @@
           "zh": "表示过去持续的状态,\"(那时)一直拿着\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/163.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/162.mp3"
     },
     {
       "t": "08:17",
@@ -4870,7 +4689,7 @@
           "zh": "\"……和……等\",不完全列举"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/164.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/163.mp3"
     },
     {
       "t": "08:24",
@@ -4897,23 +4716,16 @@
           "zh": "\"是……的东西\",说明事物的属性来源"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/165.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/164.mp3"
     },
     {
       "t": "08:27",
       "sec": 507,
       "jp": "この月は",
       "zh": "这个月(的箱子)……",
-      "vocab": [
-        {
-          "word": "月",
-          "reading": "つき",
-          "romaji": "tsuki",
-          "zh": "月份;月亮"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/166.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/165.mp3"
     },
     {
       "t": "08:27",
@@ -4946,7 +4758,7 @@
           "zh": "\"以……为主题\"(更自然的说法是〜がテーマです)"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/167.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/166.mp3"
     },
     {
       "t": "08:30",
@@ -4985,7 +4797,7 @@
           "zh": "此处表示状态,\"呈现着、体现着\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/168.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/167.mp3"
     },
     {
       "t": "08:33",
@@ -5016,7 +4828,7 @@
           "zh": "表示原因,\"因为(来过)所以……\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/169.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/168.mp3"
     },
     {
       "t": "08:36",
@@ -5044,7 +4856,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/170.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/169.mp3"
     },
     {
       "t": "08:38",
@@ -5083,7 +4895,7 @@
           "zh": "い形容词连用形(去い加く)并列多个性质,\"又软又甜\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/171.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/170.mp3"
     },
     {
       "t": "08:40",
@@ -5110,7 +4922,7 @@
           "zh": "\"是……的感觉\",描述给人的印象"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/172.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/171.mp3"
     },
     {
       "t": "08:42",
@@ -5137,7 +4949,7 @@
           "zh": "\"虽然……但是\",口语转折"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/173.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/172.mp3"
     },
     {
       "t": "08:44",
@@ -5170,7 +4982,7 @@
           "zh": "\"在……里有……\",存在句,には强调场所"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/174.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/173.mp3"
     },
     {
       "t": "08:47",
@@ -5219,7 +5031,7 @@
           "zh": "「关于…的」，について后加の修饰名词（説明）"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/175.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/174.mp3"
     },
     {
       "t": "08:51",
@@ -5256,7 +5068,7 @@
           "zh": "「像这样的」，比こんな更正式的说法"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/176.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/175.mp3"
     },
     {
       "t": "08:53",
@@ -5283,7 +5095,7 @@
           "zh": "「请做…」，礼貌的请求句型"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/177.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/176.mp3"
     },
     {
       "t": "08:54",
@@ -5322,7 +5134,7 @@
           "zh": "「用…」，て形表示手段或连接后续动作"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/178.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/177.mp3"
     },
     {
       "t": "08:58",
@@ -5349,7 +5161,7 @@
           "zh": "「(让我们)…吧」，表示提议、劝诱"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/179.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/178.mp3"
     },
     {
       "t": "09:24",
@@ -5382,7 +5194,7 @@
           "zh": "「不是…吗」，口语中寻求对方认同、确认共识的说法"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/180.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/179.mp3"
     },
     {
       "t": "09:27",
@@ -5403,7 +5215,7 @@
           "zh": "「…的时候」，动词辞书形+時に表示动作发生的时间"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/181.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/180.mp3"
     },
     {
       "t": "09:28",
@@ -5436,7 +5248,7 @@
           "zh": "「觉得…啊」，な表感叹，と思って引用自己当时的想法，句子未说完是口语特征"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/182.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/181.mp3"
     },
     {
       "t": "09:30",
@@ -5463,7 +5275,7 @@
           "zh": "「心想…啊」，表达内心感叹后引用，句尾て形留白是口语习惯"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/183.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/182.mp3"
     },
     {
       "t": "09:31",
@@ -5494,7 +5306,7 @@
           "zh": "置いていかれている是「置いていく」的被动持续态，即「一直被甩在后面」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/184.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/183.mp3"
     },
     {
       "t": "09:35",
@@ -5525,7 +5337,7 @@
           "zh": "被动句，「被…甩下/抛在后面」，から表示动作来源"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/185.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/184.mp3"
     },
     {
       "t": "09:39",
@@ -5558,7 +5370,7 @@
           "zh": "「…的时候」，动词过去形+時は，提示过去某次经历作对比话题"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/186.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/185.mp3"
     },
     {
       "t": "09:43",
@@ -5589,7 +5401,7 @@
           "zh": "「虽然…」，铺垫语气，暗示后面有转折"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/187.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/186.mp3"
     },
     {
       "t": "09:46",
@@ -5616,7 +5428,7 @@
           "zh": "「大概是…吧」，自言自语式的不确定语气"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/188.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/187.mp3"
     },
     {
       "t": "09:49",
@@ -5655,34 +5467,22 @@
           "zh": "「…那样的感觉」，口语中委婉描述印象的常用句型"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/189.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/188.mp3"
     },
     {
       "t": "09:53",
       "sec": 593,
       "jp": "観光客だね",
       "zh": "是(因为)游客吧",
-      "vocab": [
-        {
-          "word": "観光客",
-          "reading": "かんこうきゃく",
-          "romaji": "kankoukyaku",
-          "zh": "游客，观光客"
-        }
-      ],
-      "grammar": [
-        {
-          "pattern": "〜だね",
-          "zh": "「是…呢」，随意口语中确认、感叹的语气词"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/190.mp3"
+      "vocab": [],
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/189.mp3"
     },
     {
       "t": "09:54",
       "sec": 594,
-      "jp": "それが理由で、日本が今観光業が盛り上がっている",
-      "zh": "因为这个原因，日本现在旅游业非常火爆",
+      "jp": "それが理由で、日本が今観光業が盛り上がっているっていうのは一つありますけど",
+      "zh": "因为这个原因，日本现在旅游业非常火爆这算是其中一个(原因)吧",
       "vocab": [
         {
           "word": "理由",
@@ -5701,6 +5501,12 @@
           "reading": "もりあがる",
           "romaji": "moriagaru",
           "zh": "高涨，火爆，气氛热烈"
+        },
+        {
+          "word": "一つ",
+          "reading": "ひとつ",
+          "romaji": "hitotsu",
+          "zh": "一个；（抽象）一方面"
         }
       ],
       "grammar": [
@@ -5711,24 +5517,7 @@
         {
           "pattern": "〜ている",
           "zh": "盛り上がっている表示「正处于火爆状态」"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/191.mp3"
-    },
-    {
-      "t": "09:57",
-      "sec": 597,
-      "jp": "っていうのは一つありますけど",
-      "zh": "这算是其中一个(原因)吧",
-      "vocab": [
-        {
-          "word": "一つ",
-          "reading": "ひとつ",
-          "romaji": "hitotsu",
-          "zh": "一个；（抽象）一方面"
-        }
-      ],
-      "grammar": [
+        },
         {
           "pattern": "〜っていうのは",
           "zh": "＝〜というのは，把前句内容名词化，「所谓…这一点」，口语形"
@@ -5738,7 +5527,7 @@
           "zh": "句尾的けど使语气缓和，留有余地"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/192.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/190.mp3"
     },
     {
       "t": "09:58",
@@ -5769,7 +5558,7 @@
           "zh": "＝〜ですものね，口语中表示「因为…嘛，对吧」，带解释兼寻求认同的语气"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/193.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/191.mp3"
     },
     {
       "t": "10:00",
@@ -5806,7 +5595,7 @@
           "zh": "说话人（可能是外国人）的不规范说法，标准日语应为「来るんですよね」，动词后接です需加ん"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/194.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/192.mp3"
     },
     {
       "t": "10:02",
@@ -5827,7 +5616,7 @@
           "zh": "「我觉得…哦」，と思う表个人看法，よ向对方强调"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/195.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/193.mp3"
     },
     {
       "t": "10:04",
@@ -5848,7 +5637,7 @@
           "zh": "「又…（而且）」，列举理由，暗示还有其他原因"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/196.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/194.mp3"
     },
     {
       "t": "10:05",
@@ -5885,23 +5674,16 @@
           "zh": "「并不…」，別に必须与否定搭配使用"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/197.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/195.mp3"
     },
     {
       "t": "10:07",
       "sec": 607,
       "jp": "いや、本当",
       "zh": "是啊，真的",
-      "vocab": [
-        {
-          "word": "本当",
-          "reading": "ほんとう",
-          "romaji": "hontou",
-          "zh": "真的，的确"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/198.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/196.mp3"
     },
     {
       "t": "10:08",
@@ -5934,7 +5716,7 @@
           "zh": "し列举第一个理由，さらに追加第二个理由，から总结原因"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/199.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/197.mp3"
     },
     {
       "t": "10:11",
@@ -5959,23 +5741,16 @@
           "zh": "「从…来看」「对…来说」，表立场"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/200.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/198.mp3"
     },
     {
       "t": "10:14",
       "sec": 614,
       "jp": "もうもうもう",
       "zh": "简直、简直、简直(没法说了)",
-      "vocab": [
-        {
-          "word": "もう",
-          "reading": "もう",
-          "romaji": "mou",
-          "zh": "（感叹连发）简直、真是，表示强烈感慨"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/201.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/199.mp3"
     },
     {
       "t": "10:14",
@@ -5996,7 +5771,7 @@
           "zh": "「是…呢」，表感叹或认同"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/202.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/200.mp3"
     },
     {
       "t": "10:15",
@@ -6035,7 +5810,7 @@
           "zh": "「想做…」，动词ます形去ます+たい表愿望，此处连续排比三个愿望"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/203.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/201.mp3"
     },
     {
       "t": "10:18",
@@ -6062,39 +5837,25 @@
           "zh": "ていく（持续下去）的可能形，「能一直…下去」，常指生活、经济上撑得住"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/204.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/202.mp3"
     },
     {
       "t": "10:19",
       "sec": 619,
       "jp": "将来",
       "zh": "将来",
-      "vocab": [
-        {
-          "word": "将来",
-          "reading": "しょうらい",
-          "romaji": "shourai",
-          "zh": "将来，未来"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/205.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/203.mp3"
     },
     {
       "t": "10:20",
       "sec": 620,
       "jp": "なるほど",
       "zh": "原来如此",
-      "vocab": [
-        {
-          "word": "なるほど",
-          "reading": "なるほど",
-          "romaji": "naruhodo",
-          "zh": "原来如此（附和用语）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/206.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/204.mp3"
     },
     {
       "t": "10:20",
@@ -6131,7 +5892,7 @@
           "zh": "「您认为…吗」，礼貌地询问对方看法"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/207.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/205.mp3"
     },
     {
       "t": "10:24",
@@ -6162,7 +5923,7 @@
           "zh": "「是…对吧/呢」，向听者确认或补充说明背景"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/208.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/206.mp3"
     },
     {
       "t": "10:28",
@@ -6201,7 +5962,7 @@
           "zh": "「从那以后」，そこ指代前面提到的时间点（1964年奥运会）"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/209.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/207.mp3"
     },
     {
       "t": "10:33",
@@ -6228,7 +5989,7 @@
           "zh": "口语中的「ということで」，表示总结前文：“就是这样，因此”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/210.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/208.mp3"
     },
     {
       "t": "10:36",
@@ -6261,7 +6022,7 @@
           "zh": "「〜も〜、〜も〜」并列列举：“…也…，…也…”，强调多方面都发生同样的事"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/211.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/209.mp3"
     },
     {
       "t": "10:41",
@@ -6288,7 +6049,7 @@
           "zh": "「〜てくる」的过去形，表示动作从过去持续到现在：“一直…过来”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/212.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/210.mp3"
     },
     {
       "t": "10:43",
@@ -6315,7 +6076,7 @@
           "zh": "「名词＋の時は」表示“在…的时候”，提示时间背景"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/213.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/211.mp3"
     },
     {
       "t": "10:45",
@@ -6342,7 +6103,7 @@
           "zh": "て形中顿，句子未说完，连接下文"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/214.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/212.mp3"
     },
     {
       "t": "10:48",
@@ -6367,7 +6128,7 @@
           "zh": "「〜ている」的口语缩略形，表示进行或状态"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/215.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/213.mp3"
     },
     {
       "t": "10:50",
@@ -6388,7 +6149,7 @@
           "zh": "「名词＋に踊る」比喻用法：被…煽动、被…冲昏头脑"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/216.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/214.mp3"
     },
     {
       "t": "10:52",
@@ -6409,7 +6170,7 @@
           "zh": "“那样的…”，指示前面提到的内容"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/217.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/215.mp3"
     },
     {
       "t": "10:53",
@@ -6430,49 +6191,25 @@
           "zh": "「のだ」的口语形＋よ，向对方说明、强调背景情况：“（其实）是…啊”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/218.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/216.mp3"
     },
     {
       "t": "10:54",
       "sec": 654,
       "jp": "時代ですよね",
       "zh": "是时代（的原因）呢",
-      "vocab": [
-        {
-          "word": "時代",
-          "reading": "じだい",
-          "romaji": "jidai",
-          "zh": "时代"
-        }
-      ],
-      "grammar": [
-        {
-          "pattern": "〜ですよね",
-          "zh": "寻求认同的语气：“…对吧”"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/219.mp3"
+      "vocab": [],
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/217.mp3"
     },
     {
       "t": "10:56",
       "sec": 656,
       "jp": "GDPですか",
       "zh": "GDP是吗？",
-      "vocab": [
-        {
-          "word": "GDP",
-          "reading": "ジーディーピー",
-          "romaji": "jii dii pii",
-          "zh": "国内生产总值（GDP）"
-        }
-      ],
-      "grammar": [
-        {
-          "pattern": "〜ですか",
-          "zh": "疑问句尾，这里用于确认对方提到的话题：“你是说…吗？”"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/220.mp3"
+      "vocab": [],
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/218.mp3"
     },
     {
       "t": "10:57",
@@ -6503,7 +6240,7 @@
           "zh": "「〜てくる」的て形，表示变化逐渐发生并持续到现在：“…起来/…下来”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/221.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/219.mp3"
     },
     {
       "t": "10:59",
@@ -6530,7 +6267,7 @@
           "zh": "句末的「と」表示引用或总结自己的看法，相当于“（我觉得）…这样”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/222.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/220.mp3"
     },
     {
       "t": "11:02",
@@ -6557,7 +6294,7 @@
           "zh": "句末「ね」表示轻微感叹、寻求共鸣"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/223.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/221.mp3"
     },
     {
       "t": "11:04",
@@ -6594,7 +6331,7 @@
           "zh": "「のですが」的口语形，表示铺垫、转折：“虽然…”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/224.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/222.mp3"
     },
     {
       "t": "11:07",
@@ -6627,7 +6364,7 @@
           "zh": "“该怎么说呢，可以叫作…吧”，说话人对措辞不确定时的缓冲表达"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/225.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/223.mp3"
     },
     {
       "t": "11:11",
@@ -6658,7 +6395,7 @@
           "zh": "「というのと」把想法名词化并列举：“…这一点，和…”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/226.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/224.mp3"
     },
     {
       "t": "11:17",
@@ -6685,7 +6422,7 @@
           "zh": "形容动词/形容词词干＋さ构成名词，表示程度、性质：豊か→豊かさ“富足程度”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/227.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/225.mp3"
     },
     {
       "t": "11:19",
@@ -6722,7 +6459,7 @@
           "zh": "「そういう中で育った人たち」：动词过去形直接修饰名词，“在…中长大的人们”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/228.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/226.mp3"
     },
     {
       "t": "11:24",
@@ -6743,7 +6480,7 @@
           "zh": "“该怎么说呢，大概叫…吧”，对用词不确定时的缓冲说法"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/229.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/227.mp3"
     },
     {
       "t": "11:27",
@@ -6774,7 +6511,7 @@
           "zh": "表示变化从过去逐渐发展到现在：“渐渐…起来了”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/230.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/228.mp3"
     },
     {
       "t": "11:31",
@@ -6795,7 +6532,7 @@
           "zh": "「〜というのは」把前面整段想法名词化作宾语：“…这一点，我能感觉到”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/231.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/229.mp3"
     },
     {
       "t": "11:34",
@@ -6820,7 +6557,7 @@
           "zh": "插入语，用于铺垫接下来要说的“有点难为情/夸张”的事"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/232.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/230.mp3"
     },
     {
       "t": "11:36",
@@ -6847,7 +6584,7 @@
           "zh": "「どんどん」叠用，加强“接连不断”的语感"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/233.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/231.mp3"
     },
     {
       "t": "11:38",
@@ -6878,7 +6615,7 @@
           "zh": "句末转折铺垫：“虽然…（但是）”，暗示与现在形成对比"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/234.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/232.mp3"
     },
     {
       "t": "11:41",
@@ -6909,7 +6646,7 @@
           "zh": "「もう」＋否定：“已经不…了”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/235.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/233.mp3"
     },
     {
       "t": "11:43",
@@ -6944,7 +6681,7 @@
           "zh": "自问推测：“到底会是怎样呢”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/236.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/234.mp3"
     },
     {
       "t": "11:46",
@@ -6971,7 +6708,7 @@
           "zh": "「不安に思う」：把…感觉为…，“感到不安”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/237.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/235.mp3"
     },
     {
       "t": "11:48",
@@ -6992,7 +6729,7 @@
           "zh": "“虽然不是…”，先否定再转折，为下文让步铺垫"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/238.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/236.mp3"
     },
     {
       "t": "11:49",
@@ -7029,7 +6766,7 @@
           "zh": "被动态＋ている：“一直被…（看待）”，「見られてます」是口语缩略"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/239.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/237.mp3"
     },
     {
       "t": "11:51",
@@ -7056,7 +6793,7 @@
           "zh": "「から」表示视点来源＋「は」提示对比：“从…（的角度）来说”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/240.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/238.mp3"
     },
     {
       "t": "11:52",
@@ -7072,23 +6809,16 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/241.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/239.mp3"
     },
     {
       "t": "11:53",
       "sec": 713,
       "jp": "うんうん",
       "zh": "嗯嗯",
-      "vocab": [
-        {
-          "word": "うんうん",
-          "reading": "うんうん",
-          "romaji": "un un",
-          "zh": "嗯嗯（表示赞同的应答语/附和）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/242.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/240.mp3"
     },
     {
       "t": "11:54",
@@ -7125,7 +6855,7 @@
           "zh": "口语缩略，表示正在发生或持续的状态"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/243.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/241.mp3"
     },
     {
       "t": "11:55",
@@ -7160,7 +6890,7 @@
           "zh": "句末「し」列举理由之一，暗示还有其他原因：“…（这也是一点）”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/244.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/242.mp3"
     },
     {
       "t": "11:57",
@@ -7197,7 +6927,7 @@
           "zh": "表示持续的状态：一直在上涨/处于上涨状态"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/245.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/243.mp3"
     },
     {
       "t": "12:00",
@@ -7222,7 +6952,7 @@
           "zh": "口语反问，寻求认同：\"不是……吗\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/246.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/244.mp3"
     },
     {
       "t": "12:01",
@@ -7253,7 +6983,7 @@
           "zh": "口语提示主题，相当于「〜は」：\"说到日本\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/247.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/245.mp3"
     },
     {
       "t": "12:05",
@@ -7286,7 +7016,7 @@
           "zh": "口语列举，相当于\"比如……之类的\"，比「〜とか」语气更随意"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/248.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/246.mp3"
     },
     {
       "t": "12:08",
@@ -7317,7 +7047,7 @@
           "zh": "て形接续，表示状态持续并连接下文"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/249.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/247.mp3"
     },
     {
       "t": "12:09",
@@ -7338,7 +7068,7 @@
           "zh": "把前述内容名词化并提出作话题：\"……这件事\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/250.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/248.mp3"
     },
     {
       "t": "12:11",
@@ -7365,7 +7095,7 @@
           "zh": "口语中把「それについて」放到句尾补充说明，正常语序是「それについてどう思いますか」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/251.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/249.mp3"
     },
     {
       "t": "12:12",
@@ -7390,7 +7120,7 @@
           "zh": "「のだ」的口语形＋委婉接续，先陈述背景再展开话题"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/252.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/250.mp3"
     },
     {
       "t": "12:16",
@@ -7427,7 +7157,7 @@
           "zh": "寻求对方认同：\"对吧\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/253.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/251.mp3"
     },
     {
       "t": "12:19",
@@ -7448,7 +7178,7 @@
           "zh": "\"即使……也\"：即使涨了也没变化（涨幅微不足道）"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/254.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/252.mp3"
     },
     {
       "t": "12:21",
@@ -7479,7 +7209,7 @@
           "zh": "口语反问，寻求认同"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/255.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/253.mp3"
     },
     {
       "t": "12:24",
@@ -7512,7 +7242,7 @@
           "zh": "先交代背景信息，为下文做铺垫的口语接续"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/256.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/254.mp3"
     },
     {
       "t": "12:26",
@@ -7549,7 +7279,7 @@
           "zh": "举例：\"麦当劳之类的\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/257.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/255.mp3"
     },
     {
       "t": "12:29",
@@ -7574,7 +7304,7 @@
           "zh": "向对方说明、强调事实的口语语气"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/258.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/256.mp3"
     },
     {
       "t": "12:31",
@@ -7595,7 +7325,7 @@
           "zh": "\"如果/当……的话\"，这里是\"现在（回头）一想的话\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/259.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/257.mp3"
     },
     {
       "t": "12:34",
@@ -7620,7 +7350,7 @@
           "zh": "寻求认同：\"对吧\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/260.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/258.mp3"
     },
     {
       "t": "12:36",
@@ -7641,7 +7371,7 @@
           "zh": "并列举例：\"5美元啦6美元啦\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/261.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/259.mp3"
     },
     {
       "t": "12:38",
@@ -7655,7 +7385,7 @@
           "zh": "表示强烈附和：\"就是啊/确实是这样\"，んです加强共鸣感"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/262.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/260.mp3"
     },
     {
       "t": "12:40",
@@ -7690,7 +7420,7 @@
           "zh": "「〜たいの」名词化后作主语，引出想问的内容"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/263.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/261.mp3"
     },
     {
       "t": "12:42",
@@ -7717,7 +7447,7 @@
           "zh": "\"有关……的\"，修饰名词：有关金融教育的差异"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/264.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/262.mp3"
     },
     {
       "t": "12:46",
@@ -7744,7 +7474,7 @@
           "zh": "「言われてる」被动态：\"被大家说\"，即\"人们常说\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/265.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/263.mp3"
     },
     {
       "t": "12:47",
@@ -7771,7 +7501,7 @@
           "zh": "「で」表示方式：\"以现金（的形式）持有\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/266.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/264.mp3"
     },
     {
       "t": "12:49",
@@ -7798,7 +7528,7 @@
           "zh": "「の」名词化：\"大家都在投资这件事\"，接下句"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/267.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/265.mp3"
     },
     {
       "t": "12:51",
@@ -7819,7 +7549,7 @@
           "zh": "口语\"诸如此类的说法\"，引用一种流行的说法后收尾"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/268.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/266.mp3"
     },
     {
       "t": "12:52",
@@ -7850,7 +7580,7 @@
           "zh": "口语中把话题模糊化提出：\"……之类的\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/269.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/267.mp3"
     },
     {
       "t": "12:54",
@@ -7891,7 +7621,7 @@
           "zh": "「教えられてない」被动否定：\"没有被教\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/270.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/268.mp3"
     },
     {
       "t": "12:58",
@@ -7928,7 +7658,7 @@
           "zh": "\"像……那样的观念\"，用みたいな使表达委婉"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/271.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/269.mp3"
     },
     {
       "t": "13:01",
@@ -7949,7 +7679,7 @@
           "zh": "「な」是自言自语式感叹，加「と思います」表达个人感受：\"我觉得……啊\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/272.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/270.mp3"
     },
     {
       "t": "13:03",
@@ -7970,7 +7700,7 @@
           "zh": "「思ったの」名词化提出话题：\"我想到的是……\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/273.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/271.mp3"
     },
     {
       "t": "13:04",
@@ -7991,7 +7721,7 @@
           "zh": "用「の」把两个动作名词化并列：\"想到的和查到的（内容）是\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/274.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/272.mp3"
     },
     {
       "t": "13:05",
@@ -8012,7 +7742,7 @@
           "zh": "并列举例：\"80年代啦70年代啦\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/275.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/273.mp3"
     },
     {
       "t": "13:06",
@@ -8034,7 +7764,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/276.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/274.mp3"
     },
     {
       "t": "13:08",
@@ -8059,7 +7789,7 @@
           "zh": "\"因为据说……\"，引用听来的信息作理由"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/277.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/275.mp3"
     },
     {
       "t": "13:09",
@@ -8080,7 +7810,7 @@
           "zh": "口语中用とか使指代模糊化：\"那个时代的人（们）之类\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/278.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/276.mp3"
     },
     {
       "t": "13:11",
@@ -8111,7 +7841,7 @@
           "zh": "\"要是能……当然好，但是……\"，暗含与现在情况的对比"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/279.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/277.mp3"
     },
     {
       "t": "13:14",
@@ -8136,7 +7866,7 @@
           "zh": "表示原因：“因为是……所以”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/280.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/278.mp3"
     },
     {
       "t": "13:16",
@@ -8169,7 +7899,7 @@
           "zh": "固定搭配：“对……感兴趣”，兴趣的对象用助词に"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/281.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/279.mp3"
     },
     {
       "t": "13:19",
@@ -8200,23 +7930,16 @@
           "zh": "举例，“……之类的”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/282.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/280.mp3"
     },
     {
       "t": "13:22",
       "sec": 802,
       "jp": "もう今は",
       "zh": "现在已经是",
-      "vocab": [
-        {
-          "word": "もう",
-          "reading": "もう",
-          "romaji": "mou",
-          "zh": "已经"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/283.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/281.mp3"
     },
     {
       "t": "13:24",
@@ -8249,7 +7972,7 @@
           "zh": "用の连续修饰名词并以とか举例：“像国家制度的积立NISA之类”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/284.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/282.mp3"
     },
     {
       "t": "13:26",
@@ -8270,7 +7993,7 @@
           "zh": "口语中用来引出话题、做铺垫：“是关于……的事”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/285.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/283.mp3"
     },
     {
       "t": "13:29",
@@ -8301,7 +8024,7 @@
           "zh": "〜ている的口语缩约形，表示正在进行或状态"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/286.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/284.mp3"
     },
     {
       "t": "13:30",
@@ -8328,7 +8051,7 @@
           "zh": "〜ていて的口语缩约形，表示状态持续并连接下文"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/287.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/285.mp3"
     },
     {
       "t": "13:31",
@@ -8359,28 +8082,16 @@
           "zh": "表示手段：“通过/用NISA”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/288.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/286.mp3"
     },
     {
       "t": "13:34",
       "sec": 814,
       "jp": "なくなるか",
       "zh": "还是说是免除来着？",
-      "vocab": [
-        {
-          "word": "なくなる",
-          "reading": "なくなる",
-          "romaji": "nakunaru",
-          "zh": "消失、没有了（这里指税被免除）"
-        }
-      ],
-      "grammar": [
-        {
-          "pattern": "〜か",
-          "zh": "句尾的か在这里表示说话人自我更正、犹豫：“……还是说……来着”"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/289.mp3"
+      "vocab": [],
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/287.mp3"
     },
     {
       "t": "13:35",
@@ -8407,28 +8118,16 @@
           "zh": "〜という的口语形，表示引用或说明内容：“就是说……（这么回事）”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/290.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/288.mp3"
     },
     {
       "t": "13:37",
       "sec": 817,
       "jp": "政府から",
       "zh": "是政府（推出的）",
-      "vocab": [
-        {
-          "word": "政府",
-          "reading": "せいふ",
-          "romaji": "seifu",
-          "zh": "政府"
-        }
-      ],
-      "grammar": [
-        {
-          "pattern": "〜から",
-          "zh": "表示来源：“由/从政府（那里）”"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/291.mp3"
+      "vocab": [],
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/289.mp3"
     },
     {
       "t": "13:37",
@@ -8459,7 +8158,7 @@
           "zh": "口语，先说明再转折：“虽然是……不过”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/292.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/290.mp3"
     },
     {
       "t": "13:40",
@@ -8486,7 +8185,7 @@
           "zh": "举例：“……之类的”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/293.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/291.mp3"
     },
     {
       "t": "13:42",
@@ -8507,7 +8206,7 @@
           "zh": "这里指钱“流向、进入”某处，て形连接下文"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/294.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/292.mp3"
     },
     {
       "t": "13:44",
@@ -8538,7 +8237,7 @@
           "zh": "口语句尾，表示“好像……那样的（情况）”，语气委婉"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/295.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/293.mp3"
     },
     {
       "t": "13:46",
@@ -8565,7 +8264,7 @@
           "zh": "口语中すごい→すげえ这类音变，显得随意、男性化"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/296.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/294.mp3"
     },
     {
       "t": "13:47",
@@ -8596,7 +8295,7 @@
           "zh": "向对方说明、强调自己的想法"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/297.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/295.mp3"
     },
     {
       "t": "13:49",
@@ -8617,7 +8316,7 @@
           "zh": "口语应答：“这一点我也这么觉得”，それは提示同意的对象"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/298.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/296.mp3"
     },
     {
       "t": "13:50",
@@ -8642,23 +8341,16 @@
           "zh": "〜ています的口语缩约形，表示现在的状态"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/299.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/297.mp3"
     },
     {
       "t": "13:52",
       "sec": 832,
       "jp": "なるほど",
       "zh": "原来如此",
-      "vocab": [
-        {
-          "word": "なるほど",
-          "reading": "なるほど",
-          "romaji": "naruhodo",
-          "zh": "原来如此（表示领会的应答语）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/300.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/298.mp3"
     },
     {
       "t": "13:52",
@@ -8666,13 +8358,8 @@
       "jp": "日本は",
       "zh": "日本呢",
       "vocab": [],
-      "grammar": [
-        {
-          "pattern": "〜は",
-          "zh": "提示话题：“说到日本……”，为下一句提问做铺垫"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/301.mp3"
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/299.mp3"
     },
     {
       "t": "13:54",
@@ -8703,7 +8390,7 @@
           "zh": "〜ています的郑重（自谦）形；这里说话人用得有点不规范，日常会话说〜ています即可"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/302.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/300.mp3"
     },
     {
       "t": "13:55",
@@ -8734,7 +8421,7 @@
           "zh": "表示范围、角度：“在……（意义）上”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/303.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/301.mp3"
     },
     {
       "t": "13:56",
@@ -8761,7 +8448,7 @@
           "zh": "样态助动词，接动词ます形词干：“看样子要……、好像会……”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/304.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/302.mp3"
     },
     {
       "t": "13:58",
@@ -8794,39 +8481,25 @@
           "zh": "表示原因：“因为……所以”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/305.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/303.mp3"
     },
     {
       "t": "14:00",
       "sec": 840,
       "jp": "うん",
       "zh": "嗯",
-      "vocab": [
-        {
-          "word": "うん",
-          "reading": "うん",
-          "romaji": "un",
-          "zh": "嗯（随意的应答，表示同意）"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/306.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/304.mp3"
     },
     {
       "t": "14:02",
       "sec": 842,
       "jp": "確かに",
       "zh": "确实",
-      "vocab": [
-        {
-          "word": "確かに",
-          "reading": "たしかに",
-          "romaji": "tashika ni",
-          "zh": "确实、的确"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/307.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/305.mp3"
     },
     {
       "t": "14:02",
@@ -8859,7 +8532,7 @@
           "zh": "口语中代替は提示话题：“说到日本嘛”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/308.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/306.mp3"
     },
     {
       "t": "14:05",
@@ -8880,7 +8553,7 @@
           "zh": "表示原因，比から稍客观、礼貌：“因为……”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/309.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/307.mp3"
     },
     {
       "t": "14:07",
@@ -8917,7 +8590,7 @@
           "zh": "で表示方式：“以打工度假（签证）的形式去”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/310.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/308.mp3"
     },
     {
       "t": "14:11",
@@ -8944,7 +8617,7 @@
           "zh": "“像……那样的感觉”，口语中用来打比方、使说法柔和"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/311.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/309.mp3"
     },
     {
       "t": "14:13",
@@ -8975,7 +8648,7 @@
           "zh": "向对方说明、强调事实"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/312.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/310.mp3"
     },
     {
       "t": "14:14",
@@ -9000,7 +8673,7 @@
           "zh": "条件形：“一……（看）的话”"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/313.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/311.mp3"
     },
     {
       "t": "14:15",
@@ -9031,7 +8704,7 @@
           "zh": "句尾的って引用自己的想法，后面省略了思う"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/314.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/312.mp3"
     },
     {
       "t": "14:18",
@@ -9068,7 +8741,7 @@
           "zh": "列举理由或并列事项,暗示\"不止这一点\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/315.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/313.mp3"
     },
     {
       "t": "14:20",
@@ -9095,7 +8768,7 @@
           "zh": "口语中把修饰语「大学の」放到句尾补充说明,正常语序是「大学のディグリー」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/316.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/314.mp3"
     },
     {
       "t": "14:22",
@@ -9126,7 +8799,7 @@
           "zh": "「と思っています」的口语缩略,表示一直持有的想法"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/317.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/315.mp3"
     },
     {
       "t": "14:24",
@@ -9142,7 +8815,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/318.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/316.mp3"
     },
     {
       "t": "14:25",
@@ -9189,7 +8862,7 @@
           "zh": "列举理由,句尾留有余韵"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/319.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/317.mp3"
     },
     {
       "t": "14:29",
@@ -9216,7 +8889,7 @@
           "zh": "「んです」+「けど」:委婉陈述自己的看法,并为后面的转折留下余地"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/320.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/318.mp3"
     },
     {
       "t": "14:33",
@@ -9243,28 +8916,16 @@
           "zh": "\"只是……而已\",限定范围,后面隐含\"实际并非如此\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/321.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/319.mp3"
     },
     {
       "t": "14:36",
       "sec": 876,
       "jp": "見えるだけで",
       "zh": "只是看起来(如此)而已",
-      "vocab": [
-        {
-          "word": "見える",
-          "reading": "みえる",
-          "romaji": "mieru",
-          "zh": "看起来、看得见"
-        }
-      ],
-      "grammar": [
-        {
-          "pattern": "〜だけで",
-          "zh": "\"只是……而已\",这里是对上一句「感じるだけで」的换个说法"
-        }
-      ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/322.mp3"
+      "vocab": [],
+      "grammar": [],
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/320.mp3"
     },
     {
       "t": "14:37",
@@ -9307,7 +8968,7 @@
           "zh": "「し」列举理由,表示\"这也是原因之一\",语气未尽"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/323.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/321.mp3"
     },
     {
       "t": "14:41",
@@ -9334,7 +8995,7 @@
           "zh": "「〜というのが」的口语形式,把前面的内容名词化后提出作话题"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/324.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/322.mp3"
     },
     {
       "t": "14:43",
@@ -9356,7 +9017,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/325.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/323.mp3"
     },
     {
       "t": "14:45",
@@ -9393,7 +9054,7 @@
           "zh": "「〜ていた」的口语缩略,表示过去持续的状态"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/326.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/324.mp3"
     },
     {
       "t": "14:49",
@@ -9420,7 +9081,7 @@
           "zh": "\"一……就……\",表示必然的条件结果。注意:标准说法是「外国に行く」,这里说话人口语中用了「を」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/327.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/325.mp3"
     },
     {
       "t": "14:51",
@@ -9454,39 +9115,16 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/328.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/326.mp3"
     },
     {
       "t": "14:53",
       "sec": 893,
       "jp": "うん",
       "zh": "嗯",
-      "vocab": [
-        {
-          "word": "うん",
-          "reading": "うん",
-          "romaji": "un",
-          "zh": "嗯(随声附和,表示在听)"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/329.mp3"
-    },
-    {
-      "t": "14:54",
-      "sec": 894,
-      "jp": "うん",
-      "zh": "嗯",
-      "vocab": [
-        {
-          "word": "うん",
-          "reading": "うん",
-          "romaji": "un",
-          "zh": "嗯(随声附和)"
-        }
-      ],
-      "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/330.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/327.mp3"
     },
     {
       "t": "14:54",
@@ -9511,7 +9149,7 @@
           "zh": "句尾的「けど」使断言变得委婉,\"只是……罢了\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/331.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/328.mp3"
     },
     {
       "t": "14:56",
@@ -9548,23 +9186,16 @@
           "zh": "\"总觉得好像……\",表示没有把握的直觉判断"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/332.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/329.mp3"
     },
     {
       "t": "14:59",
       "sec": 899,
       "jp": "しょうがない",
       "zh": "这也是没办法的事",
-      "vocab": [
-        {
-          "word": "しょうがない",
-          "reading": "しょうがない",
-          "romaji": "shouganai",
-          "zh": "没办法、无可奈何(「仕方がない」的口语形式)"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/333.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/330.mp3"
     },
     {
       "t": "15:00",
@@ -9597,23 +9228,16 @@
           "zh": "强调\"仅限于……、只不过是……\",常用来事先声明立场、避免争议"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/334.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/331.mp3"
     },
     {
       "t": "15:02",
       "sec": 902,
       "jp": "確かに",
       "zh": "确实",
-      "vocab": [
-        {
-          "word": "確かに",
-          "reading": "たしかに",
-          "romaji": "tashikani",
-          "zh": "确实、有道理(附和用语)"
-        }
-      ],
+      "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/335.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/332.mp3"
     },
     {
       "t": "15:03",
@@ -9634,7 +9258,7 @@
           "zh": "「〜になっていく」的て形中顿,表示\"逐渐变成……(然后)\",强调持续变化的趋势"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/336.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/333.mp3"
     },
     {
       "t": "15:05",
@@ -9667,7 +9291,7 @@
           "zh": "「ている」的口语缩略+条件「と」,\"如果一直……的话(就会)\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/337.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/334.mp3"
     },
     {
       "t": "15:08",
@@ -9704,7 +9328,7 @@
           "zh": "\"因为……\",客观陈述原因"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/338.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/335.mp3"
     },
     {
       "t": "15:11",
@@ -9735,7 +9359,7 @@
           "zh": "\"有……这样的想法/念头\",用「という」把愿望名词化再陈述"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/339.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/336.mp3"
     },
     {
       "t": "15:14",
@@ -9772,7 +9396,7 @@
           "zh": "口语中把「今」放到句尾补充,正常语序是「今、〜トレンドですよね」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/340.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/337.mp3"
     },
     {
       "t": "15:17",
@@ -9809,7 +9433,7 @@
           "zh": "\"连……也\",强调连有技能的人也不例外"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/341.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/338.mp3"
     },
     {
       "t": "15:21",
@@ -9836,7 +9460,7 @@
           "zh": "「〜てしまっていて」的口语缩略:「ちゃう」=てしまう(遗憾/彻底),「てて」=ていて(状态中顿),即\"都已经走掉了(这种状态)\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/342.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/339.mp3"
     },
     {
       "t": "15:24",
@@ -9873,7 +9497,7 @@
           "zh": "「持っている」的口语缩略,\"拥有\";「お金持ってる人」=有钱人"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/343.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/340.mp3"
     },
     {
       "t": "15:26",
@@ -9910,7 +9534,7 @@
           "zh": "\"因为……\",引出下一句的感想"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/344.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/341.mp3"
     },
     {
       "t": "15:28",
@@ -9941,7 +9565,7 @@
           "zh": "委婉地陈述自己的想法,留有余地"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/345.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/342.mp3"
     },
     {
       "t": "15:30",
@@ -9962,7 +9586,7 @@
           "zh": "「よね」寻求共鸣,\"……对吧/是吧\""
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/346.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/343.mp3"
     },
     {
       "t": "15:32",
@@ -9999,7 +9623,7 @@
           "zh": "て形连接,\"招来之后(再)……\",承接下一句"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/347.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/344.mp3"
     },
     {
       "t": "15:37",
@@ -10026,7 +9650,7 @@
           "zh": "「〜というのが」的口语形式,把前面整件事名词化后作为话题提出"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/348.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/345.mp3"
     },
     {
       "t": "15:39",
@@ -10053,7 +9677,7 @@
           "zh": "\"关于……你怎么看\",采访中征求对方意见的常用句式,「は」提示对比话题"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/349.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/346.mp3"
     },
     {
       "t": "15:40",
@@ -10086,7 +9710,7 @@
           "zh": "「我认为是〜」，表达自己的看法；句尾的ね寻求听者认同"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/350.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/347.mp3"
     },
     {
       "t": "15:43",
@@ -10123,7 +9747,7 @@
           "zh": "「更加〜」，表示程度进一步加深"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/351.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/348.mp3"
     },
     {
       "t": "15:46",
@@ -10156,7 +9780,7 @@
           "zh": "「我想〜，不过…」，んです表示说明语气，けど使语气委婉并引出下文"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/352.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/349.mp3"
     },
     {
       "t": "15:49",
@@ -10184,7 +9808,7 @@
         }
       ],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/353.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/350.mp3"
     },
     {
       "t": "15:50",
@@ -10205,7 +9829,7 @@
           "zh": "助词に表示地点/对象，这里指「在（不同的）日本」，句子未说完"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/354.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/351.mp3"
     },
     {
       "t": "15:54",
@@ -10226,7 +9850,7 @@
           "zh": "口语中列举例子，「〜之类的、〜什么的」，比〜など更随意"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/355.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/352.mp3"
     },
     {
       "t": "15:58",
@@ -10247,7 +9871,7 @@
           "zh": "「该说是〜吧？」，说话人一边找措辞一边向听者确认的口语表达"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/356.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/353.mp3"
     },
     {
       "t": "16:01",
@@ -10274,7 +9898,7 @@
           "zh": "「作为〜」，表示身份、资格或名目"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/357.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/354.mp3"
     },
     {
       "t": "16:03",
@@ -10301,7 +9925,7 @@
           "zh": "「不〜的话（就会…）」，表示条件，暗示不这么做会有不好的结果"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/358.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/355.mp3"
     },
     {
       "t": "16:07",
@@ -10328,7 +9952,7 @@
           "zh": "〜ています的口语缩略＋もん（表示理由/共识）＋ね（寻求认同），「现在确实在发生嘛」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/359.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/356.mp3"
     },
     {
       "t": "16:08",
@@ -10349,7 +9973,7 @@
           "zh": "「我觉得〜对吧」，よね同时表达主张和寻求对方认同"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/360.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/357.mp3"
     },
     {
       "t": "16:10",
@@ -10376,7 +10000,7 @@
           "zh": "口语中插在句中，起缓和语气、引起注意的作用"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/361.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/358.mp3"
     },
     {
       "t": "16:14",
@@ -10409,7 +10033,7 @@
           "zh": "「不仅仅是〜」，口语中じゃなくて是ではなくて的缩略"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/362.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/359.mp3"
     },
     {
       "t": "16:17",
@@ -10436,7 +10060,7 @@
           "zh": "〜ていると的口语缩略，这里的と引用/承接前后叙述"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/363.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/360.mp3"
     },
     {
       "t": "16:19",
@@ -10457,7 +10081,7 @@
           "zh": "口语中用って引用前面说的内容，「就是那种〜的（情况）」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/364.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/361.mp3"
     },
     {
       "t": "16:22",
@@ -10484,7 +10108,7 @@
           "zh": "接在人称名词后表示复数，「〜们」"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/365.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/362.mp3"
     },
     {
       "t": "16:23",
@@ -10511,7 +10135,7 @@
           "zh": "「不是〜吗」，反问形式，寻求对方认同某个共识"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/366.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/363.mp3"
     },
     {
       "t": "16:25",
@@ -10538,7 +10162,7 @@
           "zh": "「该叫作〜吧？」，一边找合适的说法一边向对方确认，って是と的口语形"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/367.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/364.mp3"
     },
     {
       "t": "16:28",
@@ -10559,7 +10183,7 @@
           "zh": "「既然（事实上）是〜，所以…」，わけ表示基于事实的必然道理，から给出理由"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/368.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/365.mp3"
     },
     {
       "t": "16:29",
@@ -10586,7 +10210,7 @@
           "zh": "「〜下去」，表示动作从现在向将来持续发展"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/369.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/366.mp3"
     },
     {
       "t": "16:32",
@@ -10611,7 +10235,7 @@
           "zh": "「我想是不是会〜」，双重委婉的推测表达，语气柔和"
         }
       ],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/370.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/367.mp3"
     },
     {
       "t": "16:34",
@@ -10620,7 +10244,7 @@
       "zh": "好，感谢大家看到这里",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/371.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/368.mp3"
     },
     {
       "t": "16:35",
@@ -10629,7 +10253,7 @@
       "zh": "怎么样？很有意思吧。",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/372.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/369.mp3"
     },
     {
       "t": "16:37",
@@ -10638,7 +10262,7 @@
       "zh": "我打算再做一期视频，主题是",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/373.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/370.mp3"
     },
     {
       "t": "16:39",
@@ -10647,7 +10271,7 @@
       "zh": "「在日本旅行的花费」。",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/374.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/371.mp3"
     },
     {
       "t": "16:40",
@@ -10656,7 +10280,7 @@
       "zh": "正如我们在这期视频里聊到的",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/375.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/372.mp3"
     },
     {
       "t": "16:42",
@@ -10665,7 +10289,7 @@
       "zh": "对本地人来说日子不好过",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/376.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/373.mp3"
     },
     {
       "t": "16:43",
@@ -10674,7 +10298,7 @@
       "zh": "但对你们来说，正是来日本的绝好机会。",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/377.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/374.mp3"
     },
     {
       "t": "16:45",
@@ -10683,7 +10307,7 @@
       "zh": "好，感谢观看",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/378.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/375.mp3"
     },
     {
       "t": "16:46",
@@ -10692,7 +10316,7 @@
       "zh": "如果喜欢这期视频，请点个赞",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/379.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/376.mp3"
     },
     {
       "t": "16:48",
@@ -10701,7 +10325,7 @@
       "zh": "请订阅我的频道",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/380.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/377.mp3"
     },
     {
       "t": "16:49",
@@ -10710,7 +10334,7 @@
       "zh": "我们下期再见",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/381.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/378.mp3"
     },
     {
       "t": "16:53",
@@ -10719,7 +10343,7 @@
       "zh": "拜拜",
       "vocab": [],
       "grammar": [],
-      "clip": "audio/why-is-japan-still-so-cheap-in-2026/382.mp3"
+      "clip": "audio/why-is-japan-still-so-cheap-in-2026/379.mp3"
     }
   ],
   "grammarPoints": {
