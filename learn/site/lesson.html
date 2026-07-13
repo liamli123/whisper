@@ -71,6 +71,7 @@ function segCard(s) {
   return `<div class="seg">
     <div class="seg-head">
       <button class="ts" data-sec="${s.sec}">${esc(s.t)}</button>
+      ${s.clip ? `<button class="clip-btn" data-clip="${esc(s.clip)}" title="播放这句音频">▶</button>` : ''}
       <p class="jp">${esc(s.jp)}</p>
     </div>
     ${s.zh ? `<p class="zh">${esc(s.zh)}</p>` : ''}
@@ -96,10 +97,18 @@ fetch(`data/${encodeURIComponent(id)}.json`)
     }
 
     // Tap a timestamp -> seek the embedded player (fallback: open YouTube)
+    const clipAudio = new Audio();
     document.getElementById('segs').addEventListener('click', e => {
       const zh = e.target.closest('.zh');
       if (zh && document.body.classList.contains('hide-zh')) {
         zh.classList.add('revealed');
+        return;
+      }
+      const clipBtn = e.target.closest('.clip-btn');
+      if (clipBtn) {
+        if (player && player.pauseVideo) player.pauseVideo();
+        clipAudio.src = clipBtn.dataset.clip;
+        clipAudio.play();
         return;
       }
       const btn = e.target.closest('.ts');

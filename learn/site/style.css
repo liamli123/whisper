@@ -143,6 +143,17 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
+.clip-btn {
+  flex-shrink: 0;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+
 .jp { font-size: 18px; font-weight: 600; margin: 0; }
 
 .zh {
