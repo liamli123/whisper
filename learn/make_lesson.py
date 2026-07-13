@@ -11,6 +11,7 @@ Usage: python make_lesson.py <transcript.md> [--no-analyze]
 """
 
 import argparse
+import difflib
 import json
 import re
 import shutil
@@ -126,6 +127,24 @@ def slugify(title: str) -> str:
     return slug or "lesson"
 
 
+def normalize_jp(s: str) -> str:
+    s = unicodedata.normalize("NFKC", s)
+    return re.sub(r"[^0-9A-Za-z぀-ヿ一-鿿]", "", s).lower()
+
+
+def keep_segment(jp: str, kept_norms: list) -> bool:
+    """Drop trivial fillers (そうですね, 確かに...) and sentences whose
+    meaning already appeared (videos often preview/recap soundbites)."""
+    n = normalize_jp(jp)
+    if len(n) <= 6:
+        return False
+    if any(difflib.SequenceMatcher(None, n, k).ratio() >= 0.85
+           for k in kept_norms):
+        return False
+    kept_norms.append(n)
+    return True
+
+
 def to_seconds(ts: str) -> int:
     parts = [int(p) for p in ts.split(":")]
     if len(parts) == 3:
@@ -148,8 +167,11 @@ def parse_transcript(md_path: Path) -> dict:
     video_id = video_id_m.group(1) if video_id_m else ""
 
     segments = []
+    kept_norms = []
     for m in re.finditer(r"^\*\*\[(\d+:\d{2}(?::\d{2})?)\]\*\* (.+)$", text, re.M):
         ts, jp = m.group(1), m.group(2).strip()
+        if not keep_segment(jp, kept_norms):
+            continue
         segments.append({
             "t": ts,
             "sec": to_seconds(ts),
