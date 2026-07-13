@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>课程</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">
+  <a href="index.html">← 列表</a>
+  <h1 id="title">加载中…</h1>
+  <button class="toggle-btn" id="zh-toggle" title="隐藏中文翻译，自我测试">隐藏中文</button>
+</div>
+<div class="video-box" id="video-box" hidden><div id="player"></div></div>
+<div class="wrap" id="segs"></div>
+
+<script>
+const params = new URLSearchParams(location.search);
+const id = params.get('id');
+let player = null;
+let videoId = '';
+let grammarPoints = {};
+
+// Translation hide/reveal toggle (for self-testing)
+const toggle = document.getElementById('zh-toggle');
+toggle.addEventListener('click', () => {
+  document.body.classList.toggle('hide-zh');
+  toggle.classList.toggle('active');
+  toggle.textContent = document.body.classList.contains('hide-zh') ? '显示中文' : '隐藏中文';
+  document.querySelectorAll('.zh.revealed').forEach(e => e.classList.remove('revealed'));
+});
+
+function esc(s) {
+  return (s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+}
+
+function segCard(s) {
+  const vocab = (s.vocab && s.vocab.length) ? `
+    <p class="section-label">词汇</p>
+    <table class="vocab">
+      <tr><th>单词</th><th>假名</th><th>罗马音</th><th>中文</th></tr>
+      ${s.vocab.map(v => `<tr>
+        <td class="w">${esc(v.word)}</td>
+        <td class="r">${esc(v.reading)}</td>
+        <td class="p">${esc(v.romaji)}</td>
+        <td>${esc(v.zh)}</td>
+      </tr>`).join('')}
+    </table>` : '';
+
+  const grammar = (s.grammar && s.grammar.length) ? `
+    <p class="section-label">语法・句型（点击展开讲解）</p>
+    <ul class="grammar">
+      ${s.grammar.map(g => {
+        const d = grammarPoints[g.pattern];
+        const head = `<span class="pat">${esc(g.pattern)}</span> — ${esc(g.zh)}`;
+        if (!d) return `<li>${head}</li>`;
+        return `<li><details>
+          <summary>${head}</summary>
+          <div class="gdetail">
+            <p><b>接续</b>：${esc(d.connection)}</p>
+            <p><b>含义</b>：${esc(d.meaning)}</p>
+            <p><b>讲解</b>：${esc(d.explanation)}</p>
+            <p><b>例句</b>：</p>
+            ${(d.examples || []).map(e => `<p class="gex">${esc(e.jp)}<br><span class="gex-zh">${esc(e.zh)}</span></p>`).join('')}
+          </div>
+        </details></li>`;
+      }).join('')}
+    </ul>` : '';
+
+  return `<div class="seg">
+    <div class="seg-head">
+      <button class="ts" data-sec="${s.sec}">${esc(s.t)}</button>
+      <p class="jp">${esc(s.jp)}</p>
+    </div>
+    ${s.zh ? `<p class="zh">${esc(s.zh)}</p>` : ''}
+    ${vocab}
+    ${grammar}
+  </div>`;
+}
+
+fetch(`data/${encodeURIComponent(id)}.json`)
+  .then(r => r.json())
+  .then(lesson => {
+    document.title = lesson.title;
+    document.getElementById('title').textContent = lesson.title;
+    videoId = lesson.videoId;
+    grammarPoints = lesson.grammarPoints || {};
+    document.getElementById('segs').innerHTML = lesson.segments.map(segCard).join('');
+
+    if (videoId) {
+      document.getElementById('video-box').hidden = false;
+      const tag = document.createElement('script');
+      tag.src = 'https://www.youtube.com/iframe_api';
+      document.head.appendChild(tag);
+    }
+
+    // Tap a timestamp -> seek the embedded player (fallback: open YouTube)
+    document.getElementById('segs').addEventListener('click', e => {
+      const zh = e.target.closest('.zh');
+      if (zh && document.body.classList.contains('hide-zh')) {
+        zh.classList.add('revealed');
+        return;
+      }
+      const btn = e.target.closest('.ts');
+      if (!btn) return;
+      const sec = parseInt(btn.dataset.sec, 10);
+      if (player && player.seekTo) {
+        player.seekTo(sec, true);
+        player.playVideo();
+        document.querySelector('.video-box').scrollIntoView({behavior: 'smooth', block: 'nearest'});
+      } else if (videoId) {
+        window.open(`https://youtu.be/${videoId}?t=${sec}`, '_blank');
+      }
+    });
+  })
+  .catch(() => {
+    document.getElementById('segs').innerHTML = '<p class="empty">课程加载失败</p>';
+  });
+
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    videoId: videoId,
+    playerVars: { playsinline: 1, rel: 0 },
+  });
+}
+</script>
+</body>
+</html>

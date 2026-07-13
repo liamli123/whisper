@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日语学习 · 课程列表</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><h1>日语学习 · 课程列表</h1></div>
+<div class="wrap" id="list"><p class="empty">加载中…</p></div>
+<script>
+fetch('data/index.json')
+  .then(r => r.json())
+  .then(lessons => {
+    const el = document.getElementById('list');
+    if (!lessons.length) { el.innerHTML = '<p class="empty">还没有课程</p>'; return; }
+    el.innerHTML = lessons.map(l => `
+      <a class="lesson-card" href="lesson.html?id=${encodeURIComponent(l.id)}">
+        <h2>${l.title}</h2>
+        <div class="meta">${l.channel || ''} · ${l.duration || ''} · ${l.segmentCount} 句</div>
+      </a>`).join('');
+  })
+  .catch(() => {
+    document.getElementById('list').innerHTML = '<p class="empty">加载失败</p>';
+  });
+</script>
+</body>
+</html>

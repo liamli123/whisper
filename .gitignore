@@ -1,2 +1,7 @@
 __pycache__/
 downloads/
+.vercel/
+*.mp3
+
+.vercel
+.env*.local

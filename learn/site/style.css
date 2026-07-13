@@ -1,0 +1,228 @@
+:root {
+  --bg: #f6f6f4;
+  --card: #ffffff;
+  --text: #1a1a1a;
+  --muted: #6b6b6b;
+  --accent: #c0392b;
+  --accent-soft: #fdf0ee;
+  --border: #e4e2dd;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141414;
+    --card: #1f1f1f;
+    --text: #ececec;
+    --muted: #9a9a9a;
+    --accent: #e07b6f;
+    --accent-soft: #2c211f;
+    --border: #333;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans",
+    "Noto Sans JP", "Microsoft YaHei", sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 14px 60px;
+}
+
+/* Top bar */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar h1 {
+  font-size: 15px;
+  margin: 0;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.topbar a { color: var(--accent); text-decoration: none; font-size: 14px; }
+
+.toggle-btn {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.toggle-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+/* Video */
+.video-box {
+  position: sticky;
+  top: 47px;
+  z-index: 10;
+  background: #000;
+  aspect-ratio: 16 / 9;
+  max-height: 220px;
+  width: 100%;
+}
+
+.video-box iframe { width: 100%; height: 100%; border: 0; }
+
+/* On phones the sticky video eats too much screen — let it scroll away.
+   Tapping a timestamp scrolls it back into view via scrollIntoView. */
+@media (max-width: 640px) {
+  .video-box {
+    position: static;
+    max-height: none;
+  }
+}
+
+/* Index page lesson cards */
+.lesson-card {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 14px;
+  text-decoration: none;
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+.lesson-card h2 { margin: 0 0 6px; font-size: 17px; }
+.lesson-card .meta { color: var(--muted); font-size: 13px; }
+
+/* Sentence cards */
+.seg {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+  margin-top: 14px;
+  box-shadow: var(--shadow);
+}
+
+.seg-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.ts {
+  flex-shrink: 0;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+}
+
+.jp { font-size: 18px; font-weight: 600; margin: 0; }
+
+.zh {
+  color: var(--muted);
+  font-size: 15px;
+  margin: 8px 0 0;
+}
+
+body.hide-zh .zh { filter: blur(6px); cursor: pointer; }
+body.hide-zh .zh.revealed { filter: none; }
+
+/* Vocab table */
+.vocab {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.vocab th {
+  text-align: left;
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 12px;
+  border-bottom: 1px solid var(--border);
+  padding: 2px 8px 6px 0;
+}
+
+.vocab td {
+  padding: 6px 8px 6px 0;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.vocab tr:last-child td { border-bottom: none; }
+.vocab .w { font-weight: 600; }
+.vocab .r { color: var(--accent); }
+.vocab .p { color: var(--muted); font-size: 13px; }
+
+/* Grammar */
+.grammar { margin: 12px 0 0; padding: 0; list-style: none; }
+
+.grammar li {
+  background: var(--accent-soft);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.grammar .pat { font-weight: 600; color: var(--accent); }
+
+.grammar summary { cursor: pointer; }
+.grammar summary::marker { color: var(--accent); }
+
+.gdetail {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+  font-size: 13.5px;
+}
+
+.gdetail p { margin: 4px 0; }
+.gdetail b { color: var(--accent); font-weight: 600; }
+
+.gex {
+  background: var(--card);
+  border-radius: 6px;
+  padding: 6px 8px;
+  margin: 6px 0 !important;
+}
+
+.gex-zh { color: var(--muted); }
+
+.section-label {
+  margin: 12px 0 0;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.empty { color: var(--muted); text-align: center; margin-top: 40px; }
