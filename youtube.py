@@ -4,7 +4,7 @@ YouTube Audio Transcription Tool
 Downloads a YouTube video's audio with yt-dlp and transcribes it
 with Whisper (Japanese by default), saving a Markdown transcript.
 
-Usage: python youtube.py <youtube_url> [--model MODEL] [--language ja] [--keep-audio]
+Usage: python youtube.py <youtube_url> [--model MODEL] [--language ja] [--delete-audio]
 Example: python youtube.py https://www.youtube.com/watch?v=XXXXXXXXXXX
 """
 
@@ -25,10 +25,7 @@ from execute import (
     print_error,
 )
 
-DOWNLOAD_DIR = Path(__file__).parent / "downloads"
-
-
-def download_audio(url: str) -> tuple[Path, dict]:
+def download_audio(url: str, out_dir: Path) -> tuple[Path, dict]:
     """Download the audio track of a YouTube video as mp3. Returns (path, video info)."""
     try:
         import yt_dlp
@@ -36,11 +33,11 @@ def download_audio(url: str) -> tuple[Path, dict]:
         print_error("yt-dlp is not installed! Install it with: pip install yt-dlp")
         sys.exit(1)
 
-    DOWNLOAD_DIR.mkdir(exist_ok=True)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     ydl_opts = {
         "format": "bestaudio/best",
-        "outtmpl": str(DOWNLOAD_DIR / "%(title)s.%(ext)s"),
+        "outtmpl": str(out_dir / "%(title)s.%(ext)s"),
         "noplaylist": True,
         "postprocessors": [
             {
@@ -104,21 +101,31 @@ def main():
     parser.add_argument("url", help="YouTube video URL")
     parser.add_argument("--model", default="large-v3",
                         help="Whisper model to use (default: large-v3)")
-    parser.add_argument("--language", default="ja",
-                        help="Language code (default: ja)")
-    parser.add_argument("--keep-audio", action="store_true",
-                        help="Keep the downloaded audio file after transcription")
+    parser.add_argument("-l", "--language", default="ja",
+                        help="Language code, e.g. ja, en, zh, ko (default: ja)")
+    parser.add_argument("--delete-audio", action="store_true",
+                        help="Delete the downloaded audio file after transcription")
+    parser.add_argument("-o", "--output-dir", default=".",
+                        help="Folder to save the audio and transcript "
+                             "(default: current folder)")
     args = parser.parse_args()
 
     print_header("YOUTUBE AUDIO TRANSCRIPTION")
 
-    audio_path, info = download_audio(args.url)
+    audio_path, info = download_audio(args.url, Path(args.output_dir).resolve())
 
     print_info(f"Loading model: {args.model}...")
     processor = TranscriptProcessor(args.model)
 
+    duration = info.get("duration")
+    if duration:
+        print_info(f"Audio duration: {format_timestamp(duration)}")
     print_info(f"Transcribing ({args.language}): {audio_path.name}...")
-    whisper_result = processor.model.transcribe(str(audio_path), language=args.language)
+    # verbose=False enables whisper's tqdm progress bar (percentage + ETA;
+    # 100 frames = 1 second of audio)
+    whisper_result = processor.model.transcribe(
+        str(audio_path), language=args.language, verbose=False
+    )
     segments = whisper_result.get("segments", [])
 
     if args.language == "ja":
@@ -139,9 +146,11 @@ def main():
     print_success(f"Markdown transcript saved to: {output_file}")
     print_info(f"Total sentences: {result['sentence_count']}")
 
-    if not args.keep_audio:
+    if args.delete_audio:
         audio_path.unlink()
         print_info(f"Deleted downloaded audio: {audio_path.name}")
+    else:
+        print_info(f"Audio kept at: {audio_path}")
 
     # Preview
     print(f"\n{Colors.BOLD}Preview (first 5 segments):{Colors.END}")

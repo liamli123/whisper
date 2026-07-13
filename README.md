@@ -84,8 +84,8 @@ python youtube.py https://www.youtube.com/watch?v=XXXXXXXXXXX
 # Faster, smaller model
 python youtube.py https://www.youtube.com/watch?v=XXXXXXXXXXX --model medium
 
-# Keep the downloaded mp3 after transcription
-python youtube.py https://www.youtube.com/watch?v=XXXXXXXXXXX --keep-audio
+# Delete the downloaded mp3 after transcription
+python youtube.py https://www.youtube.com/watch?v=XXXXXXXXXXX --delete-audio
 
 # Non-Japanese video
 python youtube.py https://www.youtube.com/watch?v=XXXXXXXXXXX --language en
@@ -93,16 +93,25 @@ python youtube.py https://www.youtube.com/watch?v=XXXXXXXXXXX --language en
 
 **Options**:
 - `--model` - Whisper model (default: `large-v3`)
-- `--language` - Language code (default: `ja`)
-- `--keep-audio` - Keep the downloaded mp3 (deleted by default after transcription)
+- `-l`, `--language` - Language code (default: `ja`)
+- `-o`, `--output-dir` - Folder for the audio and transcript (default: current folder)
+- `--delete-audio` - Delete the downloaded mp3 after transcription (kept by default)
 
 **What it does**:
-1. Downloads the audio track as mp3 into `downloads/`
+1. Downloads the audio track as mp3 into the current folder (or `--output-dir`)
 2. Transcribes it with Whisper (Japanese sentence formatting applied for `ja`)
-3. Saves `downloads/<video title>.md` containing:
+3. Saves `<video title>.md` next to the mp3, containing:
    - Video metadata (title, channel, URL, duration)
    - Timestamped transcript (文字起こし)
    - Full formatted text (全文)
+
+**Run it from anywhere with `ytt`**: a `ytt.cmd` launcher in the Python `Scripts`
+folder (already on PATH) forwards to this script, so you can open a terminal in
+any folder and run:
+```bash
+ytt "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+```
+The mp3 and transcript are saved in whatever folder you run it from.
 
 ---
 
