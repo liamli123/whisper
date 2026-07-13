@@ -98,6 +98,14 @@ fetch(`data/${encodeURIComponent(id)}.json`)
 
     // Tap a timestamp -> seek the embedded player (fallback: open YouTube)
     const clipAudio = new Audio();
+    let activeClip = null;
+    function clearClip() {
+      if (!activeClip) return;
+      activeClip.classList.remove('playing');
+      activeClip.textContent = '▶';
+      activeClip = null;
+    }
+    clipAudio.addEventListener('ended', clearClip);
     document.getElementById('segs').addEventListener('click', e => {
       const zh = e.target.closest('.zh');
       if (zh && document.body.classList.contains('hide-zh')) {
@@ -106,9 +114,18 @@ fetch(`data/${encodeURIComponent(id)}.json`)
       }
       const clipBtn = e.target.closest('.clip-btn');
       if (clipBtn) {
+        if (clipBtn === activeClip) {  // tap again to stop
+          clipAudio.pause();
+          clearClip();
+          return;
+        }
+        clearClip();
         if (player && player.pauseVideo) player.pauseVideo();
         clipAudio.src = clipBtn.dataset.clip;
         clipAudio.play();
+        clipBtn.classList.add('playing');
+        clipBtn.textContent = '◼';
+        activeClip = clipBtn;
         return;
       }
       const btn = e.target.closest('.ts');

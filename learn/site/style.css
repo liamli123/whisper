@@ -154,6 +154,19 @@ body {
   cursor: pointer;
 }
 
+.clip-btn:active { transform: scale(0.85); }
+
+.clip-btn.playing {
+  background: var(--accent);
+  color: #fff;
+  animation: clip-pulse 1s ease-in-out infinite;
+}
+
+@keyframes clip-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+
 .jp { font-size: 18px; font-weight: 600; margin: 0; }
 
 .zh {
