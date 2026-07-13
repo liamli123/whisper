@@ -23,6 +23,17 @@ learn/
 
 ## Adding a new lesson
 
+One command (runs all the steps below, then pushes; Vercel auto-deploys):
+
+```
+ytl "https://www.youtube.com/watch?v=..."
+```
+
+(`ytl` -> learn/pipeline.py; use `--no-push` to review before deploying.
+`ytt` remains the transcribe-only shortcut for youtube.py.)
+
+Or step by step:
+
 1. Transcribe a video: `ytt "https://www.youtube.com/watch?v=..."`
 2. Build the lesson: `python E:\Websites\Whisper\learn\make_lesson.py "<video title>.md"`
    — this creates the skeleton AND auto-launches Claude Code headlessly
