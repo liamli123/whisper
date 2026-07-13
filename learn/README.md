@@ -10,10 +10,12 @@ grammar notes, and tap-to-play YouTube timestamps), deployed on Vercel.
 learn/
 ├── make_lesson.py      # transcript .md -> lesson JSON skeleton
 ├── merge_analysis.py   # merge chunked analysis back into the lesson JSON
+├── make_clips.py       # cut per-sentence audio clips (word-aligned)
 └── site/               # static site (deploy this folder to Vercel)
     ├── index.html      # lesson list
     ├── lesson.html     # lesson view (sentence cards + embedded player)
     ├── style.css
+    ├── audio/<id>/     # one mp3 clip per sentence
     └── data/
         ├── index.json  # lesson index
         └── <id>.json   # one file per lesson
@@ -27,7 +29,12 @@ learn/
    (the analysis prompt is built into the script) to fill in translations,
    vocab, and grammar for every segment. Takes a few minutes.
    Use `--no-analyze` to build only the skeleton.
-3. Deploy: `cd learn/site && vercel --prod --yes`
+3. Cut per-sentence audio clips (needs the video's mp3 and `pip install pykakasi`):
+   `python learn/make_clips.py learn/site/data/<id>.json <audio.mp3>`
+   — re-transcribes with word-level timestamps (cached in `<audio>.words.json`)
+   and snaps each clip to real sentence boundaries. Segments get a `"clip"`
+   field; the site shows a ▶ button on cards that have one.
+4. Deploy: push to GitHub (Vercel auto-deploys) or `cd learn/site && vercel --prod --yes`
 
 make_lesson.py refuses to overwrite a lesson that already has analysis —
 delete its JSON from `site/data/` first if you want to rebuild one.

@@ -30,9 +30,22 @@ MATCH_WINDOW = (-0.25, 1.35)  # search for the first word around the marked sec
 MIN_SCORE = 0.5    # below this, fall back to "first word at/after sec"
 
 
+try:
+    import pykakasi
+    _kks = pykakasi.kakasi()
+except ImportError:  # matching still works, just weaker on kanji/kana variants
+    _kks = None
+
+
 def norm(s: str) -> str:
     s = unicodedata.normalize("NFKC", s)
-    return re.sub(r"[^0-9A-Za-z぀-ヿ一-鿿]", "", s).lower()
+    s = re.sub(r"[^0-9A-Za-z぀-ヿ一-鿿]", "", s).lower()
+    if _kks:
+        # Fold everything to hiragana readings so the same word spelled
+        # differently by the two transcription passes (大体 vs だいたい,
+        # katakana vs hiragana) still matches.
+        s = "".join(item["hira"] for item in _kks.convert(s))
+    return "".join(chr(ord(c) - 0x60) if "ァ" <= c <= "ヶ" else c for c in s)
 
 
 def transcribe_words(audio: Path, model_name: str, cache: Path) -> list:
@@ -60,7 +73,7 @@ def transcribe_words(audio: Path, model_name: str, cache: Path) -> list:
 
 def match_start(words: list, sec: int, jp: str) -> float:
     """Find the precise start of the sentence whose truncated timestamp is sec."""
-    target = norm(jp)[:6]
+    target = norm(jp)[:10]
     lo, hi = sec + MATCH_WINDOW[0], sec + MATCH_WINDOW[1]
     best_start, best_score = None, -1.0
     for j, w in enumerate(words):
@@ -68,7 +81,7 @@ def match_start(words: list, sec: int, jp: str) -> float:
             continue
         if w["start"] > hi:
             break
-        cand = norm("".join(x["text"] for x in words[j:j + 6]))[:6]
+        cand = norm("".join(x["text"] for x in words[j:j + 10]))[:10]
         score = difflib.SequenceMatcher(None, target, cand).ratio()
         if score > best_score:
             best_start, best_score = w["start"], score
@@ -134,7 +147,9 @@ def main():
             if last_end is None:
                 last_end = nxt
             begin = max(0.0, starts[i] - START_PAD)
-            end = min(nxt - 0.02, last_end + END_PAD)
+            # Allow slight run-over into the next sentence: cutting a word
+            # short is worse than a faint onset of the next one.
+            end = min(nxt + 0.08, last_end + END_PAD)
             # Untranscribed speech (e.g. non-Japanese interview portions)
             # defeats the gap check above; cap by how long the sentence
             # could plausibly take to say.
